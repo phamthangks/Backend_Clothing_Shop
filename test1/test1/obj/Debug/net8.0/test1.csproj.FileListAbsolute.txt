@@ -1,0 +1,1030 @@
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\appsettings.Development.json
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\appsettings.json
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.staticwebassets.endpoints.json
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.exe
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.deps.json
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.runtimeconfig.json
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.pdb
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.csproj.AssemblyReference.cache
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.AssemblyInfoInputs.cache
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.AssemblyInfo.cs
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.csproj.CoreCompileInputs.cache
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\scopedcss\bundle\test1.styles.css
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.test1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.test1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.build.test1.props
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.test1.props
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.test1.props
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.dll
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\refint\test1.dll
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.pdb
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
+D:\ASP.NET\test1\test1\obj\Debug\net8.0\ref\test1.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Azure.Core.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Azure.Identity.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Humanizer.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.ClientModel.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.CodeDom.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Text.Json.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\X.PagedList.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Twilio.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\PayPalCheckoutSdk.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\PayPalHttp-Dotnet.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\test1.staticwebassets.runtime.json
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.ABI.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Accounts.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Contracts.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Hex.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.KeyStore.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Model.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.RLP.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.RPC.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Signer.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Util.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Util.Rest.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\Nethereum.Web3.dll
+D:\ASP.NET\test1\test1\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\appsettings.Development.json
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\appsettings.json
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.staticwebassets.endpoints.json
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.staticwebassets.runtime.json
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.exe
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.deps.json
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.runtimeconfig.json
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.pdb
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Azure.Core.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Azure.Identity.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Humanizer.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.ABI.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Accounts.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Contracts.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Hex.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.KeyStore.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Model.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.RLP.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.RPC.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Signer.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Util.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Util.Rest.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Web3.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\PayPalCheckoutSdk.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\PayPalHttp-Dotnet.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.ClientModel.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.CodeDom.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Text.Json.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Twilio.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\X.PagedList.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.AssemblyReference.cache
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.AssemblyInfoInputs.cache
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.AssemblyInfo.cs
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.CoreCompileInputs.cache
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cs
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cache
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.sourcelink.json
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\scopedcss\bundle\test1.styles.css
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.test1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.test1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.build.test1.props
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.test1.props
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.test1.props
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.dll
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\refint\test1.dll
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.pdb
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
+D:\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\ref\test1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\refint\test1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.pdb
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.staticwebassets.runtime.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.staticwebassets.endpoints.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.exe
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.deps.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.runtimeconfig.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.pdb
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.ABI.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Accounts.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Contracts.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Hex.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.KeyStore.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Model.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.RLP.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.RPC.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Signer.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Util.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Util.Rest.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Web3.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\PayPalCheckoutSdk.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\PayPalHttp-Dotnet.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Twilio.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\X.PagedList.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.sourcelink.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\scopedcss\bundle\test1.styles.css
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\ref\test1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\appsettings.Development.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\appsettings.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.staticwebassets.runtime.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.staticwebassets.endpoints.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.exe
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.deps.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.runtimeconfig.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\test1.pdb
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Azure.Core.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Azure.Identity.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Humanizer.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.ABI.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Accounts.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Contracts.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Hex.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.KeyStore.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Model.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.RLP.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.RPC.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Signer.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Util.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Util.Rest.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Nethereum.Web3.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\PayPalCheckoutSdk.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\PayPalHttp-Dotnet.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.ClientModel.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.CodeDom.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Text.Json.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\Twilio.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\X.PagedList.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.AssemblyReference.cache
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.AssemblyInfoInputs.cache
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.AssemblyInfo.cs
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.CoreCompileInputs.cache
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cs
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cache
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.sourcelink.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\scopedcss\bundle\test1.styles.css
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\refint\test1.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.pdb
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\ref\test1.dll
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\Project1\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\appsettings.Development.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\appsettings.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.staticwebassets.endpoints.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.staticwebassets.runtime.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.exe
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.deps.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.runtimeconfig.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\test1.pdb
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Azure.Core.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Azure.Identity.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Humanizer.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.ABI.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Accounts.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Contracts.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Hex.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.KeyStore.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Model.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.RLP.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.RPC.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Signer.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Util.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Util.Rest.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Nethereum.Web3.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\PayPalCheckoutSdk.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\PayPalHttp-Dotnet.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.ClientModel.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.CodeDom.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Text.Json.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\Twilio.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\X.PagedList.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.csproj.AssemblyReference.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.AssemblyInfoInputs.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.AssemblyInfo.cs
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.csproj.CoreCompileInputs.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cs
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.MvcApplicationPartsAssemblyInfo.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\scopedcss\bundle\test1.styles.css
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\refint\test1.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.pdb
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\ref\test1.dll

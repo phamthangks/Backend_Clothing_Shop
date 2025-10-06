@@ -1,0 +1,175 @@
+{
+  "ContentRoots": [
+    "/app/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "uploads": {
+        "Children": {
+          "07793a8b-429c-4a02-a70f-878aa1b0ed10_Bai 12. Cai dat driver cho may that SamSung.mp4": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/07793a8b-429c-4a02-a70f-878aa1b0ed10_Bai 12. Cai dat driver cho may that SamSung.mp4"
+            },
+            "Patterns": null
+          },
+          "18f07eb9-aeaa-4820-a388-bfe3293fc582_dragon_11.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/18f07eb9-aeaa-4820-a388-bfe3293fc582_dragon_11.jpg"
+            },
+            "Patterns": null
+          },
+          "28a7eb16-1818-4915-ae18-5c9bd8f39820_dragon2.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/28a7eb16-1818-4915-ae18-5c9bd8f39820_dragon2.png"
+            },
+            "Patterns": null
+          },
+          "6b83c527-14db-400b-bc2b-01a5ac6ca1ed_Bai 7. Cac man hinh quan trong ma lap trinh vien thuong thao tac.mp4": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/6b83c527-14db-400b-bc2b-01a5ac6ca1ed_Bai 7. Cac man hinh quan trong ma lap trinh vien thuong thao tac.mp4"
+            },
+            "Patterns": null
+          },
+          "6c614232-edde-4350-99cb-8c9ffa7fefd4_Bai 12. Cai dat driver cho may that SamSung.mp4": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/6c614232-edde-4350-99cb-8c9ffa7fefd4_Bai 12. Cai dat driver cho may that SamSung.mp4"
+            },
+            "Patterns": null
+          },
+          "6f5f272c-cf16-49be-bf6f-6dc047618d15_arrow.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/6f5f272c-cf16-49be-bf6f-6dc047618d15_arrow.png"
+            },
+            "Patterns": null
+          },
+          "71dd9838-e5ac-41be-8cab-d480e2abc13b_arrow.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/71dd9838-e5ac-41be-8cab-d480e2abc13b_arrow.jpg"
+            },
+            "Patterns": null
+          },
+          "8a2f60f7-44d5-401b-9006-6462b3d8d1ee_may-bay-phuong-tien-di-chuyen-tien-loi-va-an-toan-nhat-1.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/8a2f60f7-44d5-401b-9006-6462b3d8d1ee_may-bay-phuong-tien-di-chuyen-tien-loi-va-an-toan-nhat-1.jpg"
+            },
+            "Patterns": null
+          },
+          "924755e9-1688-42d2-adc1-c8dc442d2a13_h.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/924755e9-1688-42d2-adc1-c8dc442d2a13_h.jpg"
+            },
+            "Patterns": null
+          },
+          "97af76ec-f2d2-4cbd-b2a0-54ccf35c6463_e21d38b6-f316-4bb7-b82d-5cacfb5b75ee.jpeg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/97af76ec-f2d2-4cbd-b2a0-54ccf35c6463_e21d38b6-f316-4bb7-b82d-5cacfb5b75ee.jpeg"
+            },
+            "Patterns": null
+          },
+          "9b5301cf-180c-426e-b664-37197321e2df_h.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/9b5301cf-180c-426e-b664-37197321e2df_h.png"
+            },
+            "Patterns": null
+          },
+          "a9b21cc6-865b-455a-882e-2a81bfa0b0ac_cac-hang-ve-may-bay-banner.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/a9b21cc6-865b-455a-882e-2a81bfa0b0ac_cac-hang-ve-may-bay-banner.jpg"
+            },
+            "Patterns": null
+          },
+          "ab8130a0-637e-4834-a12d-355fe7a533af_dragon3.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/ab8130a0-637e-4834-a12d-355fe7a533af_dragon3.jpg"
+            },
+            "Patterns": null
+          },
+          "b4161b00-03cd-4181-bd6d-d8171c188372_e21d38b6-f316-4bb7-b82d-5cacfb5b75ee.jpeg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/b4161b00-03cd-4181-bd6d-d8171c188372_e21d38b6-f316-4bb7-b82d-5cacfb5b75ee.jpeg"
+            },
+            "Patterns": null
+          },
+          "c1c5461b-ef5c-4046-88b2-4ee52c42e435_dragon.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/c1c5461b-ef5c-4046-88b2-4ee52c42e435_dragon.png"
+            },
+            "Patterns": null
+          },
+          "d1cdae9f-a5cb-4733-b7e9-ea05db16b08f_Bai 12. Cai dat driver cho may that SamSung.mp4": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/d1cdae9f-a5cb-4733-b7e9-ea05db16b08f_Bai 12. Cai dat driver cho may that SamSung.mp4"
+            },
+            "Patterns": null
+          },
+          "d84469bc-4f68-4012-96c5-53dfd6dec320_cac-hang-ve-may-bay-banner.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/d84469bc-4f68-4012-96c5-53dfd6dec320_cac-hang-ve-may-bay-banner.jpg"
+            },
+            "Patterns": null
+          },
+          "ee812735-9957-4950-a92e-2bdf1e22ded4_arrow.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/ee812735-9957-4950-a92e-2bdf1e22ded4_arrow.jpg"
+            },
+            "Patterns": null
+          },
+          "fb7a5a51-8853-4c95-b17a-ebec095d42a7_Bai 12. Cai dat driver cho may that SamSung.mp4": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "uploads/fb7a5a51-8853-4c95-b17a-ebec095d42a7_Bai 12. Cai dat driver cho may that SamSung.mp4"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}
