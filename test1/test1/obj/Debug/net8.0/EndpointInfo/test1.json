@@ -1438,6 +1438,18 @@
         }
       }
     },
+    "/api/roles": {
+      "get": {
+        "tags": [
+          "RolesAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Statistics/total-revenue": {
       "get": {
         "tags": [
@@ -1741,6 +1753,28 @@
               "format": "int32",
               "default": 10
             }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "roleId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "isActive",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
           }
         ],
         "responses": {
@@ -1800,19 +1834,13 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
+              "schema": { }
             },
             "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
+              "schema": { }
             },
             "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
+              "schema": { }
             }
           }
         },
@@ -1825,6 +1853,29 @@
     },
     "/api/users/Delete/{id}": {
       "delete": {
+        "tags": [
+          "UsersAPI"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/users/Restore/{id}": {
+      "put": {
         "tags": [
           "UsersAPI"
         ],

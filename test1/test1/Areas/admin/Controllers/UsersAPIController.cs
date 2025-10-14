@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using test1.Models;
 using test1.Models.AccessModel;
 using test1.Service;
+using test1.Handlers;
+using System.Text.RegularExpressions;
+using System.Text.Json;
 
 namespace test1.Areas.Admin.Controllers
 {
@@ -21,13 +24,51 @@ namespace test1.Areas.Admin.Controllers
 			_context = context;
 		}
 		[HttpGet]
-		public IActionResult GetAll(int page = 1, int size = 10)
+		public IActionResult GetAll(int page = 1, int size = 10, string? search = null, int? roleId = null, bool? isActive = null)
 		{
-			var users = _context.Users
+			if (page <= 0) page = 1;
+			if (size <= 0) size = 10;
+
+			var query = _context.Users
+				.Include(u => u.Role)
+				.AsQueryable();
+
+			if (!string.IsNullOrWhiteSpace(search))
+			{
+				var keyword = search.Trim().ToLower();
+				query = query.Where(u =>
+					(u.Fullname != null && EF.Functions.Like(u.Fullname.ToLower(), $"%{keyword}%")) ||
+					EF.Functions.Like(u.PhoneNumber.ToLower(), $"%{keyword}%"));
+			}
+
+			if (roleId.HasValue)
+			{
+				query = query.Where(u => u.RoleId == roleId.Value);
+			}
+
+			if (isActive.HasValue)
+			{
+				query = query.Where(u => u.IsActive == isActive.Value);
+			}
+
+			var total = query.Count();
+			var users = query
 				.Skip((page - 1) * size)
 				.Take(size)
+				.Select(u => new
+				{
+					id = u.Id,
+					fullname = u.Fullname,
+					phoneNumber = u.PhoneNumber,
+					isActive = u.IsActive,
+					roleId = u.RoleId,
+					role = u.Role == null ? null : new { id = u.Role.Id, name = u.Role.Name },
+					facebookAccountId = u.FacebookAccountId,
+					googleAccountId = u.GoogleAccountId,
+					createdAt = u.CreatedAt,
+					updatedAt = u.UpdatedAt
+				})
 				.ToList();
-			var total = _context.Users.Count();
 
 			return Ok(new
 			{
@@ -38,44 +79,125 @@ namespace test1.Areas.Admin.Controllers
 			});
 		}
 
+
+
 		[HttpPost("Create")]
 		public IActionResult Create([FromBody] User user)
-		{
-			if (ModelState.IsValid)
-			{
-				_context.Users.Add(user);
-				_context.SaveChanges();
-				return Ok(new { message = "Người dùng đã được tạo thành công", userId = user.Id });
-			}
-			return BadRequest(ModelState);
-		}
-
-		[HttpPut("Edit/{id}")]
-		public IActionResult Edit(int id, [FromBody] User updatedUser)
 		{
 			if (!ModelState.IsValid)
 			{
 				return BadRequest(ModelState);
 			}
 
-			var user = _context.Users.Find(id);
-			if (user == null)
+			// Manual validations (since EF model lacks DataAnnotations)
+			if (string.IsNullOrWhiteSpace(user.PhoneNumber))
 			{
-				return NotFound(new { message = "Không tìm thấy người dùng" });
+				return BadRequest(new { message = "Số điện thoại là bắt buộc" });
+			}
+			if (!Regex.IsMatch(user.PhoneNumber, "^[0-9]{10}$"))
+			{
+				return BadRequest(new { message = "Số điện thoại không hợp lệ (10 chữ số)" });
+			}
+			if (string.IsNullOrWhiteSpace(user.Password) || user.Password.Length < 6)
+			{
+				return BadRequest(new { message = "Mật khẩu phải có ít nhất 6 ký tự" });
+			}
+			if (!user.RoleId.HasValue)
+			{
+				return BadRequest(new { message = "Role là bắt buộc" });
 			}
 
-			// Cập nhật các trường thông tin
-			user.Fullname = updatedUser.Fullname;
-			user.PhoneNumber = updatedUser.PhoneNumber;
-			user.Password = updatedUser.Password;
-			user.DateOfBirth = updatedUser.DateOfBirth;
-			user.IsActive = updatedUser.IsActive;
-			user.FacebookAccountId = updatedUser.FacebookAccountId;
-			user.GoogleAccountId = updatedUser.GoogleAccountId;
-			user.RoleId = updatedUser.RoleId;
-			user.UpdatedAt = DateTime.Now;
+			// Duplicate phone check
+			bool phoneExists = _context.Users.Any(u => u.PhoneNumber == user.PhoneNumber);
+			if (phoneExists)
+			{
+				return Conflict(new { message = "Số điện thoại đã tồn tại" });
+			}
 
-			_context.SaveChanges();
+			try
+			{
+				// Hash password before saving
+				user.Password = PasswordHashHandler.HashPassword(user.Password);
+				// Ensure social IDs default to 0 if not provided
+				user.FacebookAccountId = user.FacebookAccountId ?? 0;
+				user.GoogleAccountId = user.GoogleAccountId ?? 0;
+				user.CreatedAt = DateTime.Now;
+				_context.Users.Add(user);
+				_context.SaveChanges();
+				return Ok(new { message = "Người dùng đã được tạo thành công", userId = user.Id });
+			}
+			catch (DbUpdateException ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Lỗi khi lưu dữ liệu", detail = ex.Message });
+			}
+		}
+
+	[HttpPut("Edit/{id}")]
+	public IActionResult Edit(int id, [FromBody] JsonElement updateData)
+	{
+		var user = _context.Users.Find(id);
+		if (user == null)
+		{
+			return NotFound(new { message = "Không tìm thấy người dùng" });
+		}
+
+		// Extract fields from JsonElement
+		string? phoneNumber = updateData.TryGetProperty("phoneNumber", out var phoneEl) ? phoneEl.GetString() : null;
+		string? fullname = updateData.TryGetProperty("fullname", out var nameEl) ? nameEl.GetString() : null;
+		int? roleId = updateData.TryGetProperty("roleId", out var roleEl) ? roleEl.GetInt32() : null;
+		bool? isActive = updateData.TryGetProperty("isActive", out var activeEl) ? activeEl.GetBoolean() : null;
+		string? password = updateData.TryGetProperty("password", out var passEl) ? passEl.GetString() : null;
+
+		// Validate phone
+		if (string.IsNullOrWhiteSpace(phoneNumber))
+		{
+			return BadRequest(new { message = "Số điện thoại là bắt buộc" });
+		}
+		if (!Regex.IsMatch(phoneNumber, "^[0-9]{10}$"))
+		{
+			return BadRequest(new { message = "Số điện thoại không hợp lệ (10 chữ số)" });
+		}
+		bool phoneExists = _context.Users.Any(u => u.PhoneNumber == phoneNumber && u.Id != id);
+		if (phoneExists)
+		{
+			return Conflict(new { message = "Số điện thoại đã tồn tại" });
+		}
+
+		if (!roleId.HasValue)
+		{
+			return BadRequest(new { message = "Role là bắt buộc" });
+		}
+
+		// Cập nhật các trường thông tin
+		user.Fullname = fullname;
+		user.PhoneNumber = phoneNumber;
+		// Only re-hash password if provided and changed
+		if (!string.IsNullOrWhiteSpace(password))
+		{
+			// If password is different from current hash, re-hash it
+			if (password != user.Password)
+			{
+				user.Password = PasswordHashHandler.HashPassword(password);
+			}
+		}
+		// If password is empty/null, keep the existing password (don't update)
+		user.IsActive = isActive ?? user.IsActive;
+		// Không cho phép sửa Facebook/Google Account ID từ admin
+		// Giữ nguyên các giá trị hiện tại
+		user.FacebookAccountId = user.FacebookAccountId ?? 0;
+		user.GoogleAccountId = user.GoogleAccountId ?? 0;
+		user.RoleId = roleId;
+		user.UpdatedAt = DateTime.Now;
+
+			try
+			{
+				_context.SaveChanges();
+			}
+			catch (DbUpdateException ex)
+			{
+				// Unique index violation on phone number
+				return Conflict(new { message = "Số điện thoại đã tồn tại", detail = ex.Message });
+			}
 
 			return Ok(new { success = true, message = "Người dùng đã được cập nhật thành công!" });
 		}
@@ -84,25 +206,36 @@ namespace test1.Areas.Admin.Controllers
 		[HttpDelete("Delete/{id}")]
 		public IActionResult Delete(int id)
 		{
-			var order = _context.Orders.Where(o => o.UserId == id).ToList();
-			_context.Orders.RemoveRange(order);
-
-			var token = _context.Tokens.Where(o => o.UserId == id).ToList();
-			_context.Tokens.RemoveRange(token);
-
-			var sp = _context.ShippingAddresses.Where(o => o.UserId == id).ToList();
-			_context.ShippingAddresses.RemoveRange(sp);
-
 			var user = _context.Users.Find(id);
 			if (user == null)
 			{
 				return NotFound(new { message = "Không tìm thấy người dùng" });
 			}
 
-			_context.Users.Remove(user);
+			// Soft delete: set inactive instead of removing
+			user.IsActive = false;
+			user.UpdatedAt = DateTime.Now;
+			_context.Users.Update(user);
 			_context.SaveChanges();
 
-			return Ok(new { message = "Người dùng đã được xóa thành công" });
+			return Ok(new { message = "Tài khoản đã được vô hiệu hóa" });
+		}
+
+		[HttpPut("Restore/{id}")]
+		public IActionResult Restore(int id)
+		{
+			var user = _context.Users.Find(id);
+			if (user == null)
+			{
+				return NotFound(new { message = "Không tìm thấy người dùng" });
+			}
+
+			user.IsActive = true;
+			user.UpdatedAt = DateTime.Now;
+			_context.Users.Update(user);
+			_context.SaveChanges();
+
+			return Ok(new { message = "Tài khoản đã được khôi phục" });
 		}
 		// GET api/users/name
 		[HttpGet("name")]

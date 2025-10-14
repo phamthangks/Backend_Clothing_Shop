@@ -115,7 +115,11 @@ builder.Services.AddAuthentication(options =>
 //{
 //	options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
 //});
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+	options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+	options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+});
 builder.WebHost.UseWebRoot("wwwroot");
 
 // C?u h�nh Swagger v� Endpoints API Explorer
