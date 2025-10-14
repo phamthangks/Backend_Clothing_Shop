@@ -1,0 +1,78 @@
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/packages/
+.packages/
+project.lock.json
+project.assets.json
+packages/
+*.nuget.props
+*.nuget.targets
+*.nuget.cache
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results
+TestResult*/
+[Bb]uild[Ll]og.*
+
+# Code coverage
+*.coverage
+*.coveragexml
+coverage*/
+
+# Publish / outputs
+artifacts/
+publish/
+[Oo]ut/
+AppPackages/
+
+# Azure
+[Aa]pp[Dd]ata/
+*.publishsettings
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local secrets (keep production-safe configs in CI/CD)
+secrets.json
+appsettings.Development.json
+
+# ASP.NET static assets
+wwwroot/lib/
+wwwroot/uploads/
+!wwwroot/uploads/.gitkeep
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Editors
+.vscode/
+
