@@ -226,6 +226,13 @@
               "format": "int32",
               "default": 10
             }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -235,30 +242,34 @@
         }
       }
     },
-    "/api/brand/paged": {
+    "/api/brand/all": {
       "get": {
         "tags": [
           "BrandAPI"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Brand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Brand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Brand"
-              }
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/brand/{id}": {
+      "get": {
+        "tags": [
+          "BrandAPI"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"

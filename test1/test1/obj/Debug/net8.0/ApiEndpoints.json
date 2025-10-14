@@ -122,8 +122,39 @@
         "Name": "size",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "GetById",
+    "RelativePath": "api/brand/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "GetAllBrands",
+    "RelativePath": "api/brand/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -171,22 +202,6 @@
         "Type": "System.Int32",
         "IsRequired": true
       },
-      {
-        "Name": "brand",
-        "Type": "test1.Models.Brand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
-    "Method": "Create",
-    "RelativePath": "api/brand/paged",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
       {
         "Name": "brand",
         "Type": "test1.Models.Brand",
