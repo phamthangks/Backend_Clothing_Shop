@@ -18,24 +18,64 @@ namespace test1.Areas.Admin.Controllers
 			_context = context;
 		}
 
-		[HttpGet]
-		public IActionResult GetAll(int page = 1, int size = 10)
+	[HttpGet]
+	public IActionResult GetAll(int page = 1, int size = 10, string? search = null, string? status = null, string? paymentMethod = null)
+	{
+		var query = _context.Orders.AsQueryable();
+
+		// Search by fullname, phone number, or address
+		if (!string.IsNullOrWhiteSpace(search))
 		{
-			var orders = _context.Orders
-				.Skip((page - 1) * size)
-				.Take(size)
-				.ToList();
-
-			var total = _context.Orders.Count();
-
-			return Ok(new
-			{
-				data = orders,
-				total = total,
-				page = page,
-				size = size
-			});
+			query = query.Where(o => 
+				o.Fullname.Contains(search) || 
+				o.PhoneNumber.Contains(search) || 
+				o.Address.Contains(search));
 		}
+
+		// Filter by status
+		if (!string.IsNullOrWhiteSpace(status))
+		{
+			query = query.Where(o => o.Status == status);
+		}
+
+		// Filter by payment method
+		if (!string.IsNullOrWhiteSpace(paymentMethod))
+		{
+			query = query.Where(o => o.PaymentMethod == paymentMethod);
+		}
+
+		var total = query.Count();
+
+		var orders = query
+			.OrderByDescending(o => o.OrderDate)
+			.Skip((page - 1) * size)
+			.Take(size)
+			.ToList();
+
+		return Ok(new
+		{
+			data = orders,
+			total = total,
+			page = page,
+			size = size
+		});
+	}
+
+	[HttpGet("{id}")]
+	public IActionResult GetById(int id)
+	{
+		var order = _context.Orders
+			.Include(o => o.OrderDetails)
+				.ThenInclude(od => od.Product)
+					.ThenInclude(p => p.ProductImages)
+			.Include(o => o.User)
+			.FirstOrDefault(o => o.Id == id);
+
+		if (order == null)
+			return NotFound(new { message = $"Không tìm thấy đơn hàng {id}" });
+
+		return Ok(order);
+	}
 
 
 		[HttpPut("Edit/{id}")]
