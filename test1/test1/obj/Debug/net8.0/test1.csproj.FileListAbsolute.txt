@@ -1222,12 +1222,6 @@ D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\scopedcss\bu
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.json
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.development.json
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.test1.Microsoft.AspNetCore.StaticWebAssets.props
-D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.test1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.build.test1.props
-D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.test1.props
-D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.test1.props
-D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.pack.json
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.dll
@@ -1235,3 +1229,8 @@ D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\refint\test1
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.pdb
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\ref\test1.dll
+D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.json.cache

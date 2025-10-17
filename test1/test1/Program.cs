@@ -120,6 +120,23 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 	options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 	options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
 });
+
+// Cấu hình FormOptions để xử lý FormData
+builder.Services.Configure<Microsoft.AspNetCore.Http.Features.FormOptions>(options =>
+{
+	options.ValueLengthLimit = int.MaxValue;
+	options.MultipartBodyLengthLimit = int.MaxValue;
+	options.MultipartHeadersLengthLimit = int.MaxValue;
+	options.ValueCountLimit = int.MaxValue;
+	options.KeyLengthLimit = int.MaxValue;
+});
+
+// Cấu hình Kestrel để xử lý file upload lớn
+builder.WebHost.ConfigureKestrel(options =>
+{
+	options.Limits.MaxRequestBodySize = 100 * 1024 * 1024; // 100MB
+});
+
 builder.WebHost.UseWebRoot("wwwroot");
 
 // C?u h�nh Swagger v� Endpoints API Explorer
