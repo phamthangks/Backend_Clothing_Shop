@@ -336,6 +336,188 @@ namespace test1.Areas.admin.Controllers
             });
         }
 
+        // GET /api/statistics/dashboard
+        [HttpGet("dashboard")]
+        public async Task<IActionResult> GetDashboardStats()
+        {
+            var now = DateTime.Now;
+            var firstDayOfMonth = new DateTime(now.Year, now.Month, 1);
+            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(-1);
+
+            // Tổng đơn hàng tháng này
+            var totalOrdersThisMonth = await _context.Orders
+                .Where(o => o.OrderDate.HasValue && 
+                           o.OrderDate.Value >= firstDayOfMonth && 
+                           o.OrderDate.Value <= lastDayOfMonth)
+                .CountAsync();
+
+            // Doanh thu tháng này
+            var revenueThisMonth = await _context.Orders
+                .Where(o => o.OrderDate.HasValue && 
+                           o.OrderDate.Value >= firstDayOfMonth && 
+                           o.OrderDate.Value <= lastDayOfMonth &&
+                           o.Status != "Cancelled" &&
+                           o.Status != "Đã hủy")
+                .SumAsync(o => o.TotalMoney ?? 0);
+
+            // Tổng số sản phẩm
+            var totalProducts = await _context.Products.CountAsync();
+
+            // Tổng số người dùng
+            var totalUsers = await _context.Users.CountAsync();
+
+            // Các hoạt động gần đây (10 đơn hàng mới nhất)
+            var recentActivities = await _context.Orders
+                .OrderByDescending(o => o.OrderDate)
+                .Take(10)
+                .Select(o => new
+                {
+                    o.Id,
+                    o.Fullname,
+                    o.OrderDate,
+                    o.Status,
+                    o.TotalMoney,
+                    o.PaymentMethod
+                })
+                .ToListAsync();
+
+            // Thống kê đơn hàng theo trạng thái tháng này
+            var orderStatusStats = await _context.Orders
+                .Where(o => o.OrderDate.HasValue && 
+                           o.OrderDate.Value >= firstDayOfMonth && 
+                           o.OrderDate.Value <= lastDayOfMonth)
+                .GroupBy(o => o.Status)
+                .Select(g => new
+                {
+                    Status = g.Key ?? "Không xác định",
+                    Count = g.Count()
+                })
+                .ToListAsync();
+
+            return Ok(new
+            {
+                TotalOrdersThisMonth = totalOrdersThisMonth,
+                RevenueThisMonth = Math.Round(revenueThisMonth, 2),
+                TotalProducts = totalProducts,
+                TotalUsers = totalUsers,
+                RecentActivities = recentActivities,
+                OrderStatusStats = orderStatusStats
+            });
+        }
+
+        // GET /api/statistics/monthly-revenue-chart
+        [HttpGet("monthly-revenue-chart")]
+        public async Task<IActionResult> GetMonthlyRevenueChart()
+        {
+            var now = DateTime.Now;
+            var last6Months = new List<object>();
+
+            for (int i = 5; i >= 0; i--)
+            {
+                var month = now.AddMonths(-i);
+                var firstDay = new DateTime(month.Year, month.Month, 1);
+                var lastDay = firstDay.AddMonths(1).AddDays(-1);
+
+                var revenue = await _context.Orders
+                    .Where(o => o.OrderDate.HasValue && 
+                               o.OrderDate.Value >= firstDay && 
+                               o.OrderDate.Value <= lastDay &&
+                               o.Status != "Cancelled" &&
+                               o.Status != "Đã hủy")
+                    .SumAsync(o => o.TotalMoney ?? 0);
+
+                var orderCount = await _context.Orders
+                    .Where(o => o.OrderDate.HasValue && 
+                               o.OrderDate.Value >= firstDay && 
+                               o.OrderDate.Value <= lastDay)
+                    .CountAsync();
+
+                last6Months.Add(new
+                {
+                    Month = month.ToString("MM/yyyy"),
+                    Revenue = Math.Round(revenue, 2),
+                    OrderCount = orderCount
+                });
+            }
+
+            return Ok(last6Months);
+        }
+
+        // GET /api/statistics/top-selling-products
+        [HttpGet("top-selling-products")]
+        public async Task<IActionResult> GetTopSellingProducts([FromQuery] int limit = 5)
+        {
+            var result = await (
+                from od in _context.OrderDetails
+                join p in _context.Products on od.ProductId equals p.Id
+                join c in _context.Categories on p.CategoryId equals c.Id into cat
+                from c in cat.DefaultIfEmpty()
+                join b in _context.Brands on p.BrandId equals b.Id into br
+                from b in br.DefaultIfEmpty()
+                group od by new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Price,
+                    p.Image,
+                    CategoryName = c != null ? c.Name : "Không xác định",
+                    BrandName = b != null ? b.Name : "Không xác định"
+                }
+                into g
+                select new
+                {
+                    ProductId = g.Key.Id,
+                    ProductName = g.Key.Name,
+                    Price = g.Key.Price,
+                    Image = g.Key.Image,
+                    Category = g.Key.CategoryName,
+                    Brand = g.Key.BrandName,
+                    TotalSold = g.Sum(x => x.NumberOfProducts),
+                    Revenue = g.Sum(x => x.TotalMoney)
+                }
+            )
+            .OrderByDescending(x => x.TotalSold)
+            .Take(limit)
+            .ToListAsync();
+
+            return Ok(result);
+        }
+
+        // GET /api/statistics/user-growth
+        [HttpGet("user-growth")]
+        public async Task<IActionResult> GetUserGrowth()
+        {
+            var now = DateTime.Now;
+            var last6Months = new List<object>();
+
+            for (int i = 5; i >= 0; i--)
+            {
+                var month = now.AddMonths(-i);
+                var firstDay = new DateTime(month.Year, month.Month, 1);
+                var lastDay = firstDay.AddMonths(1).AddDays(-1);
+
+                var newUsers = await _context.Users
+                    .Where(u => u.CreatedAt.HasValue && 
+                               u.CreatedAt.Value >= firstDay && 
+                               u.CreatedAt.Value <= lastDay)
+                    .CountAsync();
+
+                var totalUsers = await _context.Users
+                    .Where(u => u.CreatedAt.HasValue && 
+                               u.CreatedAt.Value <= lastDay)
+                    .CountAsync();
+
+                last6Months.Add(new
+                {
+                    Month = month.ToString("MM/yyyy"),
+                    NewUsers = newUsers,
+                    TotalUsers = totalUsers
+                });
+            }
+
+            return Ok(last6Months);
+        }
+
 
     }
 }
