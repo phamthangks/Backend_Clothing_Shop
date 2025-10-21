@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using test1.Models;
 
-namespace test1.Models;
+namespace test1.Data;
 
 public partial class QlbanQuanAoContext : DbContext
 {
@@ -136,8 +137,8 @@ public partial class QlbanQuanAoContext : DbContext
             entity.Property(e => e.OrderId).HasColumnName("order_id");
             entity.Property(e => e.Price).HasColumnName("price");
             entity.Property(e => e.ProductId).HasColumnName("product_id");
-			entity.Property(e => e.ProductVariantId).HasColumnName("product_variant_id");
-			entity.Property(e => e.Status)
+            entity.Property(e => e.ProductVariantId).HasColumnName("product_variant_id");
+            entity.Property(e => e.Status)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasDefaultValue("active")
@@ -151,11 +152,12 @@ public partial class QlbanQuanAoContext : DbContext
             entity.HasOne(d => d.Product).WithMany(p => p.OrderDetails)
                 .HasForeignKey(d => d.ProductId)
                 .HasConstraintName("FK_order_details_products");
-			entity.HasOne(d => d.ProductVariant)
-	            .WithMany(p => p.OrderDetails)
-	            .HasForeignKey(d => d.ProductVariantId)
-	            .HasConstraintName("FK_order_details_product_variants");
-		});
+
+            entity.HasOne(d => d.ProductVariant).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.ProductVariantId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_order_details_product_variants");
+        });
 
         modelBuilder.Entity<Product>(entity =>
         {

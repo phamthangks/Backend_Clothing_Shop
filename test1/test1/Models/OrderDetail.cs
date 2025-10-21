@@ -19,7 +19,11 @@ public partial class OrderDetail
 
     public string Status { get; set; } = null!;
 
+    public int? ProductVariantId { get; set; }
+
     public virtual Order? Order { get; set; }
 
     public virtual Product? Product { get; set; }
+
+    public virtual ProductVariant? ProductVariant { get; set; }
 }

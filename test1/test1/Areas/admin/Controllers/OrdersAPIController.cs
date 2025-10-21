@@ -68,6 +68,8 @@ namespace test1.Areas.Admin.Controllers
 			.Include(o => o.OrderDetails)
 				.ThenInclude(od => od.Product)
 					.ThenInclude(p => p.ProductImages)
+			.Include(o => o.OrderDetails)
+				.ThenInclude(od => od.ProductVariant)
 			.Include(o => o.User)
 			.FirstOrDefault(o => o.Id == id);
 

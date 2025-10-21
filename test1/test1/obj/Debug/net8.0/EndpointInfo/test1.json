@@ -2685,11 +2685,19 @@
             "type": "string",
             "nullable": true
           },
+          "productVariantId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "order": {
             "$ref": "#/components/schemas/Order"
           },
           "product": {
             "$ref": "#/components/schemas/Product"
+          },
+          "productVariant": {
+            "$ref": "#/components/schemas/ProductVariant"
           }
         },
         "additionalProperties": false
@@ -2822,6 +2830,13 @@
           "productId": {
             "type": "integer",
             "format": "int32"
+          },
+          "orderDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderDetail"
+            },
+            "nullable": true
           },
           "product": {
             "$ref": "#/components/schemas/Product"
