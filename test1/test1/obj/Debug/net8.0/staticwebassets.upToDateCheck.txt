@@ -20,3 +20,7 @@ wwwroot\uploads\fb7a5a51-8853-4c95-b17a-ebec095d42a7_Bai 12. Cai dat driver cho 
 wwwroot\uploads\2c817dff-0a14-40cd-8eab-87c374e5982b_anh12.jpg
 wwwroot\uploads\2d5a84db-1595-4bd3-8e7e-31b7464477ac_thang1.jpg
 wwwroot\uploads\b0ad2252-4427-45d1-bfe8-5ad0984bc373_anh10.jpg
+wwwroot\uploads\d1794140-a885-4c9b-836c-1053f9f7adbb_anh6.jpg
+wwwroot\uploads\56701a6b-443b-4615-afa6-9ad9d6903fd0_luonghoatdongImageSearch.jpg
+wwwroot\uploads\647020cb-d44d-4915-9e7b-ebbe04fe3a62_anh12.jpg
+wwwroot\uploads\9eb699d6-ff66-483b-9d12-669119a06c4f_Picture1.png

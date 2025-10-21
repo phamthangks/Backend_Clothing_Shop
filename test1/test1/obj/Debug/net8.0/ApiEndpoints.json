@@ -1040,6 +1040,117 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "GetVariantById",
+    "RelativePath": "api/productvariant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "GetAllVariants",
+    "RelativePath": "api/productvariant/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "CreateVariant",
+    "RelativePath": "api/productvariant/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Areas.Admin.Controllers.ProductVariantCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "CreateBatchVariants",
+    "RelativePath": "api/productvariant/create-batch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Areas.Admin.Controllers.ProductVariantBatchCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "DeleteVariant",
+    "RelativePath": "api/productvariant/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "UpdateVariant",
+    "RelativePath": "api/productvariant/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "test1.Areas.Admin.Controllers.ProductVariantUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
+    "Method": "GetVariantsByProductId",
+    "RelativePath": "api/productvariant/product/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "test1.Areas.Admin.Controllers.RolesAPIController",
     "Method": "GetAll",
     "RelativePath": "api/roles",
