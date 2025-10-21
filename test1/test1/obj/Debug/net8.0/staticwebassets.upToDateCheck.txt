@@ -24,3 +24,8 @@ wwwroot\uploads\d1794140-a885-4c9b-836c-1053f9f7adbb_anh6.jpg
 wwwroot\uploads\56701a6b-443b-4615-afa6-9ad9d6903fd0_luonghoatdongImageSearch.jpg
 wwwroot\uploads\647020cb-d44d-4915-9e7b-ebbe04fe3a62_anh12.jpg
 wwwroot\uploads\9eb699d6-ff66-483b-9d12-669119a06c4f_Picture1.png
+wwwroot\uploads\4bef345e-07b8-47fa-bd3f-ed0c0dd68093_luonghoatdongImageSearch.jpg
+wwwroot\uploads\f80912c0-4469-4475-a212-57c50b47f86f_566968425_1196623472520218_1992609211932802656_n.jpg
+wwwroot\uploads\b1a64869-2887-41e0-ba98-4c01eaa59baa_sp1.jpg
+wwwroot\uploads\861a8eb4-dae4-4263-a907-bad5b1724681_sp2.jpg
+wwwroot\uploads\bbe5d4ad-4d2f-4ccd-ba94-d56f2d8e42c3_sp3.jpg

@@ -21,9 +21,9 @@ namespace Test.Areas.Admin.Controllers
 		{
 			_context = context;
 			_env = env;
-			_uploadPath = Path.Combine(_env.WebRootPath, "uploads");
+			_uploadPath = Path.Combine(_env.WebRootPath, "uploads", "products");
 
-			// Tạo thư mục uploads nếu chưa tồn tại
+			// Tạo thư mục uploads/products nếu chưa tồn tại
 			if (!Directory.Exists(_uploadPath))
 			{
 				Directory.CreateDirectory(_uploadPath);
@@ -60,7 +60,7 @@ namespace Test.Areas.Admin.Controllers
 
 				// Lưu file
 				var fileName = await SaveFile(file, fileHash);
-				var imageUrl = $"/uploads/{fileName}";
+				var imageUrl = $"/uploads/products/{fileName}";
 
 				return Ok(new
 				{
@@ -123,7 +123,7 @@ namespace Test.Areas.Admin.Controllers
 
 					// Lưu file
 					var fileName = await SaveFile(file, fileHash);
-					var imageUrl = $"/uploads/{fileName}";
+					var imageUrl = $"/uploads/products/{fileName}";
 
 					results.Add(new
 					{
@@ -201,7 +201,7 @@ namespace Test.Areas.Admin.Controllers
 					.Select(f => new
 					{
 						fileName = Path.GetFileName(f),
-						imageUrl = $"/uploads/{Path.GetFileName(f)}",
+						imageUrl = $"/uploads/products/{Path.GetFileName(f)}",
 						size = new FileInfo(f).Length,
 						createdDate = System.IO.File.GetCreationTime(f)
 					})
@@ -278,7 +278,7 @@ namespace Test.Areas.Admin.Controllers
 				// Hash được lưu trong tên file (format: hash_originalname.ext)
 				if (fileName.StartsWith(fileHash))
 				{
-					return $"/uploads/{fileName}";
+					return $"/uploads/products/{fileName}";
 				}
 			}
 			return null;

@@ -290,25 +290,25 @@ namespace Test.Areas.Admin.Controllers
 
 		#region Private Methods
 
-		private async Task<string> SaveImage(IFormFile file)
+	private async Task<string> SaveImage(IFormFile file)
+	{
+		var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "products");
+
+		if (!Directory.Exists(uploadsFolder))
 		{
-			var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
-
-			if (!Directory.Exists(uploadsFolder))
-			{
-				Directory.CreateDirectory(uploadsFolder);
-			}
-
-			var uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
-			var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-			using (var fileStream = new FileStream(filePath, FileMode.Create))
-			{
-				await file.CopyToAsync(fileStream);
-			}
-
-			return $"/uploads/{uniqueFileName}";
+			Directory.CreateDirectory(uploadsFolder);
 		}
+
+		var uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
+		var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+		using (var fileStream = new FileStream(filePath, FileMode.Create))
+		{
+			await file.CopyToAsync(fileStream);
+		}
+
+		return $"/uploads/products/{uniqueFileName}";
+	}
 
 		#endregion
 	}
