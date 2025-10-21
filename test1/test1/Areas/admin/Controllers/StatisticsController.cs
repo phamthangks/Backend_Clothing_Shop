@@ -405,42 +405,126 @@ namespace test1.Areas.admin.Controllers
             });
         }
 
-        // GET /api/statistics/monthly-revenue-chart
-        [HttpGet("monthly-revenue-chart")]
-        public async Task<IActionResult> GetMonthlyRevenueChart()
+        // GET /api/statistics/revenue-chart?type=day&year=2024&month=10
+        // GET /api/statistics/revenue-chart?type=month&year=2024
+        // GET /api/statistics/revenue-chart?type=year
+        [HttpGet("revenue-chart")]
+        public async Task<IActionResult> GetRevenueChart(
+            [FromQuery] string type = "month", 
+            [FromQuery] int? year = null, 
+            [FromQuery] int? month = null)
         {
-            var now = DateTime.Now;
-            var last6Months = new List<object>();
+            var result = new List<object>();
 
-            for (int i = 5; i >= 0; i--)
+            switch (type.ToLower())
             {
-                var month = now.AddMonths(-i);
-                var firstDay = new DateTime(month.Year, month.Month, 1);
-                var lastDay = firstDay.AddMonths(1).AddDays(-1);
+                case "day":
+                    // Doanh thu theo ngày trong tháng
+                    var selectedYear = year ?? DateTime.Now.Year;
+                    var selectedMonth = month ?? DateTime.Now.Month;
+                    var firstDay = new DateTime(selectedYear, selectedMonth, 1);
+                    var lastDay = firstDay.AddMonths(1).AddDays(-1);
+                    var daysInMonth = lastDay.Day;
 
-                var revenue = await _context.Orders
-                    .Where(o => o.OrderDate.HasValue && 
-                               o.OrderDate.Value >= firstDay && 
-                               o.OrderDate.Value <= lastDay &&
-                               o.Status != "Cancelled" &&
-                               o.Status != "Đã hủy")
-                    .SumAsync(o => o.TotalMoney ?? 0);
+                    for (int day = 1; day <= daysInMonth; day++)
+                    {
+                        var currentDay = new DateTime(selectedYear, selectedMonth, day);
+                        var nextDay = currentDay.AddDays(1);
 
-                var orderCount = await _context.Orders
-                    .Where(o => o.OrderDate.HasValue && 
-                               o.OrderDate.Value >= firstDay && 
-                               o.OrderDate.Value <= lastDay)
-                    .CountAsync();
+                        var revenue = await _context.Orders
+                            .Where(o => o.OrderDate.HasValue &&
+                                       o.OrderDate.Value >= currentDay &&
+                                       o.OrderDate.Value < nextDay &&
+                                       o.Status != "Cancelled" &&
+                                       o.Status != "Đã hủy")
+                            .SumAsync(o => o.TotalMoney ?? 0);
 
-                last6Months.Add(new
-                {
-                    Month = month.ToString("MM/yyyy"),
-                    Revenue = Math.Round(revenue, 2),
-                    OrderCount = orderCount
-                });
+                        result.Add(new
+                        {
+                            Label = $"{day:00}/{selectedMonth:00}",
+                            Revenue = Math.Round(revenue, 2),
+                            Date = currentDay.ToString("yyyy-MM-dd")
+                        });
+                    }
+                    break;
+
+                case "month":
+                    // Doanh thu theo tháng trong năm
+                    var yearForMonth = year ?? DateTime.Now.Year;
+
+                    for (int m = 1; m <= 12; m++)
+                    {
+                        var monthStart = new DateTime(yearForMonth, m, 1);
+                        var monthEnd = monthStart.AddMonths(1).AddDays(-1);
+
+                        var revenue = await _context.Orders
+                            .Where(o => o.OrderDate.HasValue &&
+                                       o.OrderDate.Value >= monthStart &&
+                                       o.OrderDate.Value <= monthEnd &&
+                                       o.Status != "Cancelled" &&
+                                       o.Status != "Đã hủy")
+                            .SumAsync(o => o.TotalMoney ?? 0);
+
+                        result.Add(new
+                        {
+                            Label = $"Tháng {m}",
+                            Revenue = Math.Round(revenue, 2),
+                            Month = m,
+                            Year = yearForMonth
+                        });
+                    }
+                    break;
+
+                case "year":
+                    // Doanh thu theo năm (chỉ lấy các năm có dữ liệu)
+                    var yearsWithData = await _context.Orders
+                        .Where(o => o.OrderDate.HasValue)
+                        .Select(o => o.OrderDate.Value.Year)
+                        .Distinct()
+                        .OrderBy(y => y)
+                        .ToListAsync();
+
+                    foreach (var y in yearsWithData)
+                    {
+                        var yearStart = new DateTime(y, 1, 1);
+                        var yearEnd = new DateTime(y, 12, 31);
+
+                        var revenue = await _context.Orders
+                            .Where(o => o.OrderDate.HasValue &&
+                                       o.OrderDate.Value >= yearStart &&
+                                       o.OrderDate.Value <= yearEnd &&
+                                       o.Status != "Cancelled" &&
+                                       o.Status != "Đã hủy")
+                            .SumAsync(o => o.TotalMoney ?? 0);
+
+                        result.Add(new
+                        {
+                            Label = $"Năm {y}",
+                            Revenue = Math.Round(revenue, 2),
+                            Year = y
+                        });
+                    }
+                    break;
+
+                default:
+                    return BadRequest("Type không hợp lệ. Sử dụng: day, month, hoặc year");
             }
 
-            return Ok(last6Months);
+            return Ok(result);
+        }
+
+        // GET /api/statistics/available-years
+        [HttpGet("available-years")]
+        public async Task<IActionResult> GetAvailableYears()
+        {
+            var years = await _context.Orders
+                .Where(o => o.OrderDate.HasValue)
+                .Select(o => o.OrderDate.Value.Year)
+                .Distinct()
+                .OrderByDescending(y => y)
+                .ToListAsync();
+
+            return Ok(years);
         }
 
         // GET /api/statistics/top-selling-products

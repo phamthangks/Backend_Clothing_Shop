@@ -1162,6 +1162,16 @@
   },
   {
     "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetAvailableYears",
+    "RelativePath": "api/Statistics/available-years",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
     "Method": "GetAverageItemsPerOrder",
     "RelativePath": "api/Statistics/average-items-per-order",
     "HttpMethod": "GET",
@@ -1194,16 +1204,6 @@
     "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
     "Method": "GetDashboardStats",
     "RelativePath": "api/Statistics/dashboard",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
-    "Method": "GetMonthlyRevenueChart",
-    "RelativePath": "api/Statistics/monthly-revenue-chart",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1278,6 +1278,32 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetRevenueChart",
+    "RelativePath": "api/Statistics/revenue-chart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "month",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
