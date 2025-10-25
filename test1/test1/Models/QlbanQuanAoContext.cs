@@ -29,6 +29,10 @@ public partial class QlbanQuanAoContext : DbContext
 
     public virtual DbSet<ProductVariant> ProductVariants { get; set; }
 
+    public virtual DbSet<PurchaseOrder> PurchaseOrders { get; set; }
+
+    public virtual DbSet<PurchaseOrderDetail> PurchaseOrderDetails { get; set; }
+
     public virtual DbSet<Review> Reviews { get; set; }
 
     public virtual DbSet<ReviewMedium> ReviewMedia { get; set; }
@@ -45,13 +49,13 @@ public partial class QlbanQuanAoContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-JOHTM1O\\SQLEXPRESS;Initial Catalog=QLBanQuanAo;Integrated Security=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-CE2QC2S\\MAY1;Initial Catalog=QLBanQuanAo;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Brand>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__brands__3213E83F7F401EC2");
+            entity.HasKey(e => e.Id).HasName("PK__brands__3213E83F97153977");
 
             entity.ToTable("brands");
 
@@ -63,7 +67,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__categori__3213E83F5C6E988E");
+            entity.HasKey(e => e.Id).HasName("PK__categori__3213E83F2CE9DBD0");
 
             entity.ToTable("categories");
 
@@ -75,7 +79,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__orders__3213E83F59DEA217");
+            entity.HasKey(e => e.Id).HasName("PK__orders__3213E83F7A831C45");
 
             entity.ToTable("orders");
 
@@ -127,7 +131,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<OrderDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__order_de__3213E83F83E9F18D");
+            entity.HasKey(e => e.Id).HasName("PK__order_de__3213E83F9122DBB6");
 
             entity.ToTable("order_details");
 
@@ -136,8 +140,8 @@ public partial class QlbanQuanAoContext : DbContext
             entity.Property(e => e.OrderId).HasColumnName("order_id");
             entity.Property(e => e.Price).HasColumnName("price");
             entity.Property(e => e.ProductId).HasColumnName("product_id");
-			entity.Property(e => e.ProductVariantId).HasColumnName("product_variant_id");
-			entity.Property(e => e.Status)
+            entity.Property(e => e.ProductVariantId).HasColumnName("product_variant_id");
+            entity.Property(e => e.Status)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasDefaultValue("active")
@@ -151,15 +155,16 @@ public partial class QlbanQuanAoContext : DbContext
             entity.HasOne(d => d.Product).WithMany(p => p.OrderDetails)
                 .HasForeignKey(d => d.ProductId)
                 .HasConstraintName("FK_order_details_products");
-			entity.HasOne(d => d.ProductVariant)
-	            .WithMany(p => p.OrderDetails)
-	            .HasForeignKey(d => d.ProductVariantId)
-	            .HasConstraintName("FK_order_details_product_variants");
-		});
+
+            entity.HasOne(d => d.ProductVariant).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.ProductVariantId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_order_details_product_variants");
+        });
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__products__3213E83F85EA7258");
+            entity.HasKey(e => e.Id).HasName("PK__products__3213E83F974E1F4C");
 
             entity.ToTable("products");
 
@@ -194,7 +199,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<ProductImage>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__product___3213E83FFCA8B597");
+            entity.HasKey(e => e.Id).HasName("PK__product___3213E83F6595AB85");
 
             entity.ToTable("product_images");
 
@@ -212,7 +217,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<ProductVariant>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__product___3213E83F23002324");
+            entity.HasKey(e => e.Id).HasName("PK__product___3213E83FE0A19B9B");
 
             entity.ToTable("product_variants");
 
@@ -232,9 +237,58 @@ public partial class QlbanQuanAoContext : DbContext
                 .HasConstraintName("FK_product_variants_products");
         });
 
+        modelBuilder.Entity<PurchaseOrder>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__purchase__3213E83F00C8B739");
+
+            entity.ToTable("purchase_orders");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.Note).HasColumnName("note");
+            entity.Property(e => e.SupplierName)
+                .HasMaxLength(255)
+                .HasColumnName("supplier_name");
+            entity.Property(e => e.UserId).HasColumnName("user_id");
+
+            entity.HasOne(d => d.User).WithMany(p => p.PurchaseOrders)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK__purchase___user___787EE5A0");
+        });
+
+        modelBuilder.Entity<PurchaseOrderDetail>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__purchase__3213E83FE6C468FE");
+
+            entity.ToTable("purchase_order_details");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.ImportPrice)
+                .HasColumnType("decimal(18, 2)")
+                .HasColumnName("import_price");
+            entity.Property(e => e.ProductVariantId).HasColumnName("product_variant_id");
+            entity.Property(e => e.PurchaseOrderId).HasColumnName("purchase_order_id");
+            entity.Property(e => e.Quantity).HasColumnName("quantity");
+            entity.Property(e => e.TotalPrice)
+                .HasComputedColumnSql("([quantity]*[import_price])", true)
+                .HasColumnType("decimal(29, 2)")
+                .HasColumnName("total_price");
+
+            entity.HasOne(d => d.ProductVariant).WithMany(p => p.PurchaseOrderDetails)
+                .HasForeignKey(d => d.ProductVariantId)
+                .HasConstraintName("FK__purchase___produ__7E37BEF6");
+
+            entity.HasOne(d => d.PurchaseOrder).WithMany(p => p.PurchaseOrderDetails)
+                .HasForeignKey(d => d.PurchaseOrderId)
+                .HasConstraintName("FK__purchase___purch__7D439ABD");
+        });
+
         modelBuilder.Entity<Review>(entity =>
         {
-            entity.HasKey(e => e.ReviewId).HasName("PK__Reviews__60883D905DC963B1");
+            entity.HasKey(e => e.ReviewId).HasName("PK__Reviews__60883D90D29FB4C6");
 
             entity.Property(e => e.ReviewId).HasColumnName("review_id");
             entity.Property(e => e.ProductId).HasColumnName("product_id");
@@ -261,7 +315,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<ReviewMedium>(entity =>
         {
-            entity.HasKey(e => e.MediaId).HasName("PK__ReviewMe__D0A840F4D34AD25D");
+            entity.HasKey(e => e.MediaId).HasName("PK__ReviewMe__D0A840F4A133F148");
 
             entity.Property(e => e.MediaId).HasColumnName("media_id");
             entity.Property(e => e.MediaType)
@@ -282,7 +336,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__roles__3213E83F531BEDB2");
+            entity.HasKey(e => e.Id).HasName("PK__roles__3213E83F928BAE3C");
 
             entity.ToTable("roles");
 
@@ -294,7 +348,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<ShippingAddress>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Shipping__3213E83F5374F59F");
+            entity.HasKey(e => e.Id).HasName("PK__Shipping__3213E83F43005F63");
 
             entity.ToTable("ShippingAddress");
 
@@ -321,7 +375,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<SocialAccount>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__social_a__3213E83FE9FFEBE8");
+            entity.HasKey(e => e.Id).HasName("PK__social_a__3213E83F17E4E826");
 
             entity.ToTable("social_accounts");
 
@@ -347,11 +401,11 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<Token>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__tokens__3213E83F543AC178");
+            entity.HasKey(e => e.Id).HasName("PK__tokens__3213E83F1AF3CE6A");
 
             entity.ToTable("tokens");
 
-            entity.HasIndex(e => e.Token1, "UQ__tokens__CA90DA7A030C9C88").IsUnique();
+            entity.HasIndex(e => e.Token1, "UQ__tokens__CA90DA7A34B494A0").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.ExpirationDate)
@@ -374,7 +428,7 @@ public partial class QlbanQuanAoContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__users__3213E83F0D3A5680");
+            entity.HasKey(e => e.Id).HasName("PK__users__3213E83FA6620F88");
 
             entity.ToTable("users");
 
