@@ -1040,6 +1040,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Test.Controllers.ProductApiController",
+    "Method": "GetProductVariants",
+    "RelativePath": "api/products/variants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "test1.Areas.Admin.Controllers.ProductVariantAPIController",
     "Method": "GetVariantById",
     "RelativePath": "api/productvariant/{id}",
@@ -1148,6 +1158,125 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.PurchaseOrderAPIController",
+    "Method": "GetPurchaseOrders",
+    "RelativePath": "api/PurchaseOrderAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[test1.Models.PurchaseOrder, test1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "test1.Controllers.PurchaseOrderAPIController",
+    "Method": "CreatePurchaseOrder",
+    "RelativePath": "api/PurchaseOrderAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Controllers.CreatePurchaseOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "test1.Models.PurchaseOrder",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "test1.Controllers.PurchaseOrderAPIController",
+    "Method": "GetPurchaseOrder",
+    "RelativePath": "api/PurchaseOrderAPI/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "test1.Models.PurchaseOrder",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "test1.Controllers.PurchaseOrderAPIController",
+    "Method": "UpdatePurchaseOrder",
+    "RelativePath": "api/PurchaseOrderAPI/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "test1.Controllers.UpdatePurchaseOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.PurchaseOrderAPIController",
+    "Method": "DeletePurchaseOrder",
+    "RelativePath": "api/PurchaseOrderAPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.PurchaseOrderAPIController",
+    "Method": "GetPurchaseOrderStatistics",
+    "RelativePath": "api/PurchaseOrderAPI/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
