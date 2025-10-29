@@ -27,7 +27,7 @@ namespace test1.Controllers
                 .Include(po => po.PurchaseOrderDetails)
                     .ThenInclude(pod => pod.ProductVariant)
                         .ThenInclude(pv => pv.Product)
-                .OrderByDescending(po => po.CreatedAt)
+                .OrderByDescending(po => po.CreatedAt).AsNoTracking()
                 .ToListAsync();
 
             return Ok(purchaseOrders);
