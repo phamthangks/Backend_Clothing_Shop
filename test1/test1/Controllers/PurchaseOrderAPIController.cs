@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using test1.Models;
 
 namespace test1.Controllers
@@ -226,12 +229,59 @@ namespace test1.Controllers
             });
         }
 
-        private int GetCurrentUserId()
-        {
-            // Lấy UserId từ token hoặc session
-            // Tạm thời return 1, cần implement logic lấy UserId thực tế
-            return 1;
-        }
+		private int GetCurrentUserId()
+		{
+			// Ưu tiên lấy token từ Header Authorization: Bearer <token>
+			var authHeader = Request.Headers["Authorization"].FirstOrDefault();
+			string? token = null;
+			if (!string.IsNullOrWhiteSpace(authHeader) && authHeader.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
+			{
+				token = authHeader.Substring("Bearer ".Length).Trim();
+			}
+			else
+			{
+				// Fallback: lấy từ cookie accessToken
+				token = Request.Cookies["accessToken"];
+			}
+
+			if (string.IsNullOrWhiteSpace(token))
+			{
+				throw new UnauthorizedAccessException("Token không tồn tại.");
+			}
+
+			var handler = new JwtSecurityTokenHandler();
+			JwtSecurityToken? jwtToken;
+			try
+			{
+				jwtToken = handler.ReadToken(token) as JwtSecurityToken;
+			}
+			catch
+			{
+				throw new UnauthorizedAccessException("Token không hợp lệ.");
+			}
+
+			if (jwtToken == null)
+			{
+				throw new UnauthorizedAccessException("Không đọc được token.");
+			}
+
+			// Theo JwtService, claim lưu số điện thoại nằm ở JwtRegisteredClaimNames.Name
+			var phoneNumber = jwtToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Name)?.Value
+				?? jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+
+			if (string.IsNullOrWhiteSpace(phoneNumber))
+			{
+				throw new UnauthorizedAccessException("Thiếu thông tin người dùng trong token.");
+			}
+
+			var user = _context.Users.FirstOrDefault(u => u.PhoneNumber == phoneNumber);
+			if (user == null)
+			{
+				throw new UnauthorizedAccessException("Người dùng không tồn tại.");
+			}
+
+			return user.Id;
+		}
     }
 
     // DTOs
