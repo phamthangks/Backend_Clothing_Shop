@@ -60,5 +60,15 @@ namespace Test.Controllers
 			};
 			return Ok(productDetail);
 		}
+
+		[HttpGet("variants")]
+		public IActionResult GetProductVariants()
+		{
+			var variants = _db.ProductVariants
+				.Include(pv => pv.Product)
+				.AsNoTracking()
+				.ToList();
+			return Ok(variants);
+		}
 	}
 }
