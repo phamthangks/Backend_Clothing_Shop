@@ -1,66 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\",
+  "WorkspaceRootPath": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\stockvalidationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\stockvalidationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\accountmodel\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\accountmodel\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\accountmodel\\cancelordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\accountmodel\\cancelordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\checkoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\checkoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\models\\qlbanquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\qlbanquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Data\\QlbanQuanAoContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test1\\Data\\QlbanQuanAoContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\models\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\imageapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\imageapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\productvariantapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\productvariantapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\rolesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\rolesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\checkout2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\checkout2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,196 +54,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsersAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\UsersAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\UsersAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\UsersAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\UsersAPIController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:28.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwFYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:27.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RolesAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\RolesAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\RolesAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\RolesAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\RolesAPIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:27.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ProductAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\ProductAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ProductAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\ProductAPIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:26.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrdersAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:26.029Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QlbanQuanAoContext.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Data\\QlbanQuanAoContext.cs",
-              "RelativeDocumentMoniker": "test1\\Data\\QlbanQuanAoContext.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Data\\QlbanQuanAoContext.cs",
-              "RelativeToolTip": "test1\\Data\\QlbanQuanAoContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "CancelOrderModel.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "RelativeToolTip": "test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:57:42.483Z",
+              "WhenOpened": "2025-11-05T18:23:17.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QlbanQuanAoContext.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\QlbanQuanAoContext.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\QlbanQuanAoContext.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\QlbanQuanAoContext.cs",
-              "RelativeToolTip": "test1\\Models\\QlbanQuanAoContext.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAswJsAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MyAccountAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\MyAccountAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\MyAccountAPIController.cs",
+              "ViewState": "AgIAABcCAAAAAAAAAAAwwCwCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:54:16.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\OrderDetail.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "test1\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:57:51.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductVariantAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ProductVariantAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\ProductVariantAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ProductVariantAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\ProductVariantAPIController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T09:11:42.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductImage.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\ProductImage.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductImage.cs",
-              "RelativeToolTip": "test1\\Models\\ProductImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:15:39.621Z",
+              "WhenOpened": "2025-11-05T18:19:03.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\Product.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\Product.cs",
-              "RelativeToolTip": "test1\\Models\\Product.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCEAAAA+AAAAAAAAAA==",
+              "Title": "AccountAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\AccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\AccountAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\AccountAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\AccountAPIController.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAwBwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:15:42.137Z",
+              "WhenOpened": "2025-11-05T17:58:04.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductVariant.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductVariant.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\ProductVariant.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductVariant.cs",
-              "RelativeToolTip": "test1\\Models\\ProductVariant.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\Account.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\AccountModel\\Account.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\Account.cs",
+              "RelativeToolTip": "test1\\Models\\AccountModel\\Account.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:57:45.458Z",
+              "WhenOpened": "2025-11-05T17:57:17.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ImageAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAADwvxQBAAAAAAAAAAAAAA==",
+              "Title": "CheckoutRequest.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:25.437Z",
+              "WhenOpened": "2025-11-05T15:03:14.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
-              "ViewState": "AgIAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StockValidationRequest.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:24.534Z"
+              "WhenOpened": "2025-11-05T15:03:13.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BrandAPIController.cs",
-              "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
-              "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
-              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Checkout2.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:23.085Z"
+              "WhenOpened": "2025-11-05T15:02:30.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\Checkout.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\Checkout.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA+wBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:02:24.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CartAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\CartAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CartAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\CartAPIController.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAmwEkBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:27:38.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CheckoutAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\CheckoutAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CheckoutAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\CheckoutAPIController.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAkwAsBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:24:47.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "test1\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:57:51.558Z"
             }
           ]
         }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "NqL/pHUT2fA=",
   "success": true,
   "projectFilePath": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
+=======
+  "dgSpecHash": "YxvTpzHIshc=",
+  "success": true,
+  "projectFilePath": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\adraffy.ensnormalize\\0.1.5\\adraffy.ensnormalize.0.1.5.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

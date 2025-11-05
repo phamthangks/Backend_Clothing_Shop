@@ -7428,11 +7428,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
       "projectName": "test1",
       "projectPath": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
       "outputPath": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\obj\\",
+=======
+      "projectUniqueName": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
+      "projectName": "test1",
+      "projectPath": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
+      "packagesPath": "C:\\Users\\vietn\\.nuget\\packages\\",
+      "outputPath": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

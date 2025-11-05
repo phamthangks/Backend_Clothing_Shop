@@ -23,5 +23,10 @@
 		public double Price { get; set; }
         public int? NumberOfProducts { get; set; }
         public bool? IsActive { get; set; }
+
+        // MAKE SURE THESE PROPERTIES EXIST
+        public int? ProductVariantId { get; set; }
+        public string? Size { get; set; }
+        public string? Color { get; set; }
     }
 }

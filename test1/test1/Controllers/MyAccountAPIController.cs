@@ -165,27 +165,104 @@ namespace Test.Controllers
 			_context.SaveChanges();
 			return Ok(new { success = true, message = "Order shipping address updated successfully" });
 		}
-		[HttpPatch("CancelOrder")]
-		public IActionResult CancelOrder([FromBody] CancelOrderModel model)
-		{
-			if (model == null || model.OrderId <= 0)
-				return BadRequest("Invalid order data");
 
-			// Tìm đơn hàng theo OrderId
-			var order = _context.Orders.FirstOrDefault(o => o.Id == model.OrderId);
-			if (order == null)
-				return NotFound(new { success = false, message = "Order not found" });
+        [HttpPatch("CancelOrder")]
+        public async Task<IActionResult> CancelOrder([FromBody] CancelOrderModel model)
+        {
+            try
+            {
+                if (model == null || model.OrderId <= 0)
+                    return BadRequest(new { success = false, message = "Invalid order data" });
 
-			// Kiểm tra trạng thái hiện tại của đơn hàng
-			if (order.Status != "processing" && order.Status != "addressChanged")
-				return BadRequest(new { success = false, message = "Order status does not allow cancellation" });
+                var customerId = GetCurrentCustomerId();
+                if (customerId <= 0)
+                    return Unauthorized(new { success = false, message = "Unauthorized" });
 
-			// Cập nhật trạng thái thành cancel
-			order.Status = "cancelled";
-			_context.SaveChanges();
-			return Ok(new { success = true, message = "Order canceled successfully" });
-		}
-		[HttpPost("AddReview")]
+                // Tìm đơn hàng theo OrderId và bao gồm chi tiết đơn hàng với thông tin biến thể sản phẩm
+                var order = await _context.Orders
+                    .Include(o => o.OrderDetails)
+                        .ThenInclude(od => od.ProductVariant)
+                    .FirstOrDefaultAsync(o => o.Id == model.OrderId && o.UserId == customerId);
+
+                if (order == null)
+                    return NotFound(new { success = false, message = "Order not found" });
+
+                // Kiểm tra trạng thái hiện tại của đơn hàng
+                if (order.Status != "processing" && order.Status != "addressChanged")
+                    return BadRequest(new { success = false, message = "Order status does not allow cancellation" });
+
+                // DEBUG: Log thông tin đơn hàng và chi tiết
+                Console.WriteLine($"=== CANCELLING ORDER DEBUG ===");
+                Console.WriteLine($"Order ID: {order.Id}, Status: {order.Status}");
+                Console.WriteLine($"Found {order.OrderDetails?.Count ?? 0} order details");
+
+                // Restore stock quantities for all order items - HOÀN TRẢ SỐ LƯỢNG VÀO KHO
+                if (order.OrderDetails != null)
+                {
+                    foreach (var orderDetail in order.OrderDetails)
+                    {
+                        if (orderDetail.ProductVariantId.HasValue && orderDetail.NumberOfProducts.HasValue)
+                        {
+                            var productVariant = await _context.ProductVariants
+                                .FirstOrDefaultAsync(pv => pv.Id == orderDetail.ProductVariantId.Value);
+
+                            if (productVariant != null)
+                            {
+                                // Lưu lại số lượng cũ để log
+                                int oldStock = productVariant.StockQuantity;
+
+                                // Thêm số lượng trở lại kho
+                                productVariant.StockQuantity += orderDetail.NumberOfProducts.Value;
+
+                                // Log thông tin hoàn trả
+                                Console.WriteLine($"Restored {orderDetail.NumberOfProducts.Value} units for product variant {productVariant.Id}");
+                                Console.WriteLine($"Product: {productVariant.ProductId}, Size: {productVariant.Size}, Color: {productVariant.Color}");
+                                Console.WriteLine($"Stock changed from {oldStock} to {productVariant.StockQuantity}");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Product variant not found for ID: {orderDetail.ProductVariantId}");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Invalid order detail - VariantId: {orderDetail.ProductVariantId}, Quantity: {orderDetail.NumberOfProducts}");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No order details found for this order");
+                }
+
+                Console.WriteLine($"=== END DEBUG ===");
+
+                // Cập nhật trạng thái thành cancelled
+                order.Status = "cancelled";
+                order.Active = false;
+
+                await _context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Order canceled successfully and product quantities have been restored to stock"
+                });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error cancelling order: {ex.Message}");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                return StatusCode(500, new
+                {
+                    success = false,
+                    message = "Error cancelling order",
+                    error = ex.Message
+                });
+            }
+        }
+
+        [HttpPost("AddReview")]
 		public async Task<IActionResult> AddReview([FromForm] ReviewCreateModel model)
 		{
 			if (model == null)
@@ -414,64 +491,71 @@ namespace Test.Controllers
 			return Ok(new { success = true, message = "Review đã được cập nhật thành công." });
 		}
 
-		#endregion
+        #endregion
 
-		#region Thông tin tài khoản
+        #region Thông tin tài khoản
 
-		[HttpGet("MyAccount")]
-		public IActionResult MyAccount()
-		{
-			var customerId = GetCurrentCustomerId();
-			if (customerId <= 0)
-				return Unauthorized(new { success = false, message = "Unauthorized" });
+        [HttpGet("MyAccount")]
+        public IActionResult MyAccount()
+        {
+            var customerId = GetCurrentCustomerId();
+            if (customerId <= 0)
+                return Unauthorized(new { success = false, message = "Unauthorized" });
 
-			// Nếu người dùng không có đơn hàng nào đã hoàn thành (Active == false)
-			if (!_context.Orders.Any(o => o.UserId == customerId && o.Active == false))
-			{
-				var account = (from d in _context.Users
-							   where d.Id == customerId && d.IsActive == true
-							   select new Account
-							   {
-								   Id = d.Id,
-								   Fullname = d.Fullname,
-								   PhoneNumber = d.PhoneNumber
-							   }).ToList();
+            // Nếu người dùng không có đơn hàng nào đã hoàn thành (Active == false)
+            if (!_context.Orders.Any(o => o.UserId == customerId && o.Active == false))
+            {
+                var account = (from d in _context.Users
+                               where d.Id == customerId && d.IsActive == true
+                               select new Account
+                               {
+                                   Id = d.Id,
+                                   Fullname = d.Fullname,
+                                   PhoneNumber = d.PhoneNumber
+                               }).ToList();
 
-				return Ok(new { success = true, data = account });
-			}
+                return Ok(new { success = true, data = account });
+            }
 
-			// Nếu có đơn hàng hoàn thành, lấy thông tin chi tiết đơn hàng
-			var accountItems = (from a in _context.Products
-								join b in _context.OrderDetails on a.Id equals b.ProductId
-								join c in _context.Orders on b.OrderId equals c.Id
-								join d in _context.Users on c.UserId equals d.Id
-								where c.Active == false
-								   && c.UserId == customerId
-								   && d.IsActive == true
-								select new Account
-								{
-									Name = a.Name,
-									ProductId = a.Id,
-									Id = d.Id,
-									OrderId= c.Id,
-									Fullname = d.Fullname,
-									FullnameS=c.Fullname,
-									PaymentMethod=c.PaymentMethod,
-									CaptureId=c.CaptureId,
-									TotalMoney=c.TotalMoney,
-									PhoneNumberS=c.PhoneNumber,
-									AddressS=c.Address,
-									ProductImageUrl=a.Image,
-									Price = a.Price,
-									Status = c.Status,
-									NumberOfProducts = b.NumberOfProducts,
-									PhoneNumber = d.PhoneNumber,
-									OrderDate = c.OrderDate,
-								}).ToList();
+            // Nếu có đơn hàng hoàn thành, lấy thông tin chi tiết đơn hàng với variant information
+            var accountItems = (from a in _context.Products
+                                join b in _context.OrderDetails on a.Id equals b.ProductId
+                                join c in _context.Orders on b.OrderId equals c.Id
+                                join d in _context.Users on c.UserId equals d.Id
+                                join pv in _context.ProductVariants on b.ProductVariantId equals pv.Id into pvGroup
+                                from pv in pvGroup.DefaultIfEmpty() // LEFT JOIN for variants
+                                where c.Active == false
+                                   && c.UserId == customerId
+                                   && d.IsActive == true
+                                select new Account
+                                {
+                                    Name = a.Name,
+                                    ProductId = a.Id,
+                                    Id = d.Id,
+                                    OrderId = c.Id,
+                                    Fullname = d.Fullname,
+                                    FullnameS = c.Fullname,
+                                    PaymentMethod = c.PaymentMethod,
+                                    CaptureId = c.CaptureId,
+                                    TotalMoney = c.TotalMoney,
+                                    PhoneNumberS = c.PhoneNumber,
+                                    AddressS = c.Address,
+                                    ProductImageUrl = a.Image,
+                                    Price = a.Price,
+                                    Status = c.Status,
+                                    NumberOfProducts = b.NumberOfProducts,
+                                    PhoneNumber = d.PhoneNumber,
+                                    OrderDate = c.OrderDate,
+                                    // ADD VARIANT INFORMATION
+                                    ProductVariantId = b.ProductVariantId,
+                                    Size = pv != null ? pv.Size : null,
+                                    Color = pv != null ? pv.Color : null
+                                }).ToList();
 
-			return Ok(new { success = true, data = accountItems });
-		}
-		[HttpGet("GetShippingAddresses")]
+            return Ok(new { success = true, data = accountItems });
+        }
+
+        [HttpGet("GetShippingAddresses")]
 		public IActionResult GetShippingAddresses()
 		{
 			var customerId = GetCurrentCustomerId();

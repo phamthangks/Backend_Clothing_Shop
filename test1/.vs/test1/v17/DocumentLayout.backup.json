@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\",
   "Documents": [
     {
@@ -61,6 +62,53 @@
     {
       "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\clothing_shop\\backend_clothing_shop\\test1\\test1\\areas\\admin\\controllers\\rolesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\rolesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\accountmodel\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\accountmodel\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\accountmodel\\cancelordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\accountmodel\\cancelordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\stockvalidationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\stockvalidationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\checkoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\checkoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\learning materials\\gtvt-tai-lieu\\gtvt-nam-4\\hoc-ki-7\\project1\\thang\\backend_clothing_shop\\test1\\test1\\models\\checkoutmodel\\checkout2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\checkoutmodel\\checkout2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -70,6 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -196,10 +245,26 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T13:15:39.621Z",
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CancelOrderModel.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "RelativeToolTip": "test1\\Models\\AccountModel\\CancelOrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:23:17.448Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\Product.cs",
@@ -207,12 +272,22 @@
               "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\Product.cs",
               "RelativeToolTip": "test1\\Models\\Product.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAuwCEAAAA+AAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "MyAccountAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\MyAccountAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\MyAccountAPIController.cs*",
+              "RelativeToolTip": "test1\\Controllers\\MyAccountAPIController.cs*",
+              "ViewState": "AgIAABcCAAAAAAAAAAAwwCwCAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:15:42.137Z",
+              "WhenOpened": "2025-11-05T18:19:03.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
               "Title": "ProductVariant.cs",
               "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductVariant.cs",
@@ -220,12 +295,22 @@
               "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductVariant.cs",
               "RelativeToolTip": "test1\\Models\\ProductVariant.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 3,
+              "Title": "AccountAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\AccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\AccountAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\AccountAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\AccountAPIController.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAwBwBAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:57:45.458Z",
+              "WhenOpened": "2025-11-05T17:58:04.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
               "Title": "ImageAPIController.cs",
               "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
@@ -235,10 +320,22 @@
               "ViewState": "AgIAANQAAAAAAAAAAADwvxQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T15:08:25.437Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\Account.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\AccountModel\\Account.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\AccountModel\\Account.cs*",
+              "RelativeToolTip": "test1\\Models\\AccountModel\\Account.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:57:17.608Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
               "Title": "CategoryAPIController.cs",
               "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
@@ -246,11 +343,22 @@
               "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
               "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
               "ViewState": "AgIAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 8,
+              "Title": "CheckoutRequest.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\CheckoutRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:24.534Z"
+              "WhenOpened": "2025-11-05T15:03:14.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
               "Title": "BrandAPIController.cs",
               "DocumentMoniker": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
@@ -258,8 +366,81 @@
               "ToolTip": "D:\\clothing_shop\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
               "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 7,
+              "Title": "StockValidationRequest.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\StockValidationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:23.085Z"
+              "WhenOpened": "2025-11-05T15:03:13.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Checkout2.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\Checkout2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:02:30.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\CheckoutModel\\Checkout.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\CheckoutModel\\Checkout.cs",
+              "RelativeToolTip": "test1\\Models\\CheckoutModel\\Checkout.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA+wBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:02:24.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CartAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\CartAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CartAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\CartAPIController.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAmwEkBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:27:38.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckoutAPIController.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CheckoutAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\CheckoutAPIController.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\CheckoutAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\CheckoutAPIController.cs",
+              "ViewState": "AgIAAFUCAAAAAAAAAAAwwGoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:24:47.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\Learning Materials\\GTVT-Tai-Lieu\\GTVT-Nam-4\\hoc-ki-7\\project1\\Thang\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "test1\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:57:51.558Z"
             }
           ]
         }
