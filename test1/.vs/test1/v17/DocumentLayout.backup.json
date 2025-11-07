@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\workspace\\asp.net core web api\\projectfinal\\backend_clothing_shop\\test1\\test1\\controllers\\purchaseorderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\purchaseorderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\workspace\\asp.net core web api\\projectfinal\\backend_clothing_shop\\test1\\test1\\models\\qlbanquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\qlbanquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PurchaseOrderAPIController.cs",
+              "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\PurchaseOrderAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\PurchaseOrderAPIController.cs",
+              "ToolTip": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Controllers\\PurchaseOrderAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\PurchaseOrderAPIController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAswMUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T09:29:24.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StatisticsController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
@@ -114,12 +131,11 @@
               "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAQwFoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:08:27.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T15:08:27.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "RolesAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\RolesAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\RolesAPIController.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ProductAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\ProductAPIController.cs",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrdersAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
@@ -155,20 +171,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "QlbanQuanAoContext.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Models\\QlbanQuanAoContext.cs",
               "RelativeDocumentMoniker": "test1\\Models\\QlbanQuanAoContext.cs",
               "ToolTip": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Models\\QlbanQuanAoContext.cs",
               "RelativeToolTip": "test1\\Models\\QlbanQuanAoContext.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAswJsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAswKYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:54:16.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:54:16.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UsersAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\UsersAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\UsersAPIController.cs",
@@ -180,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "QlbanQuanAoContext.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Data\\QlbanQuanAoContext.cs",
               "RelativeDocumentMoniker": "test1\\Data\\QlbanQuanAoContext.cs",
@@ -192,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "test1\\Models\\OrderDetail.cs",
@@ -204,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProductVariantAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ProductVariantAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\ProductVariantAPIController.cs",
@@ -216,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "test1\\Models\\ProductImage.cs",
@@ -228,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Models\\Product.cs",
               "RelativeDocumentMoniker": "test1\\Models\\Product.cs",
@@ -240,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductVariant.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Models\\ProductVariant.cs",
               "RelativeDocumentMoniker": "test1\\Models\\ProductVariant.cs",
@@ -252,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ImageAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\ImageAPIController.cs",
@@ -264,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CategoryAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
@@ -276,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BrandAPIController.cs",
               "DocumentMoniker": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
               "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",

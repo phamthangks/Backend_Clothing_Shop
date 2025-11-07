@@ -1,0 +1,4 @@
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\wwwroot\uploads\products\7bfa4a58-bacc-4b88-a3b9-89c70b82b609_Login.png
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\wwwroot\uploads\products\850e090b-8281-49ce-b392-3b258d3b7398_UseCase.drawio.png
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\wwwroot\uploads\products\aca24a0b-14cc-454c-956a-c1c4c1eb7fbb_RM.jpg
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\wwwroot\uploads\products\c5b78b56-9671-4ad8-a46b-ae4f78cd0efa_ER.jpg

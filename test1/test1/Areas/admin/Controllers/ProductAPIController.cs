@@ -307,7 +307,7 @@ namespace Test.Areas.Admin.Controllers
 			await file.CopyToAsync(fileStream);
 		}
 
-		return $"/uploads/products/{uniqueFileName}";
+		return uniqueFileName;
 	}
 
 		#endregion

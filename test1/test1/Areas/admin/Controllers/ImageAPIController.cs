@@ -60,12 +60,11 @@ namespace Test.Areas.Admin.Controllers
 
 				// Lưu file
 				var fileName = await SaveFile(file, fileHash);
-				var imageUrl = $"/uploads/products/{fileName}";
 
 				return Ok(new
 				{
 					message = "Upload ảnh thành công",
-					imageUrl = imageUrl,
+					imageUrl = fileName,
 					isDuplicate = false
 				});
 			}
@@ -123,13 +122,12 @@ namespace Test.Areas.Admin.Controllers
 
 					// Lưu file
 					var fileName = await SaveFile(file, fileHash);
-					var imageUrl = $"/uploads/products/{fileName}";
 
 					results.Add(new
 					{
 						fileName = file.FileName,
 						success = true,
-						imageUrl = imageUrl,
+						imageUrl = fileName,
 						isDuplicate = false,
 						message = "Upload thành công"
 					});
@@ -201,7 +199,7 @@ namespace Test.Areas.Admin.Controllers
 					.Select(f => new
 					{
 						fileName = Path.GetFileName(f),
-						imageUrl = $"/uploads/products/{Path.GetFileName(f)}",
+						imageUrl = Path.GetFileName(f),
 						size = new FileInfo(f).Length,
 						createdDate = System.IO.File.GetCreationTime(f)
 					})
@@ -278,7 +276,7 @@ namespace Test.Areas.Admin.Controllers
 				// Hash được lưu trong tên file (format: hash_originalname.ext)
 				if (fileName.StartsWith(fileHash))
 				{
-					return $"/uploads/products/{fileName}";
+					return fileName;
 				}
 			}
 			return null;

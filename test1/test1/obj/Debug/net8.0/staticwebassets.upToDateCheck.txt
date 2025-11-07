@@ -60,3 +60,7 @@ wwwroot\uploads\products\cdb48618-b64c-475b-986c-a4d69400b29f_sp8.jpg
 wwwroot\uploads\products\dce991c2-facb-45b8-adf6-881b322a55c1_sp1.jpg
 wwwroot\uploads\products\e509c2a9-5897-4edb-a8cc-2c010527f469_sp32.jpg
 wwwroot\uploads\products\f5e91233-09b2-4ba2-920f-2412b123b03d_sp23.jpg
+wwwroot\uploads\products\7bfa4a58-bacc-4b88-a3b9-89c70b82b609_Login.png
+wwwroot\uploads\products\850e090b-8281-49ce-b392-3b258d3b7398_UseCase.drawio.png
+wwwroot\uploads\products\aca24a0b-14cc-454c-956a-c1c4c1eb7fbb_RM.jpg
+wwwroot\uploads\products\c5b78b56-9671-4ad8-a46b-ae4f78cd0efa_ER.jpg
