@@ -45,12 +45,14 @@ namespace Test.Controllers
 		}
 
 
-		[HttpGet("{id}")]
-		public IActionResult GetProductDetail(int id)
-		{
-			var sanPham = _db.Products.SingleOrDefault(x => x.Id == id);
-			if (sanPham == null)
-				return NotFound();
+        [HttpGet("{id}")]
+        public IActionResult GetProductDetail(int id)
+        {
+            var sanPham = _db.Products
+                .Include(p => p.ProductImages)
+                .Include(p => p.ProductVariants)
+                .AsNoTracking()
+                .SingleOrDefault(x => x.Id == id);
 
 			var anhSP = _db.ProductImages.Where(x => x.ProductId == id).ToList();
 			var productDetail = new ProductDetailViewModel
@@ -59,9 +61,29 @@ namespace Test.Controllers
 				anhSps = anhSP
 			};
 			return Ok(productDetail);
-		}
+            //if (sanPham == null)
+            //  return NotFound();
 
-		[HttpGet("variants")]
+            // var productDetail = new
+            // {
+            //     Product = sanPham,
+            //     Images = sanPham.ProductImages,
+            //     Variants = sanPham.ProductVariants
+            //         .Select(v => new
+            //         {
+            //             v.Id,
+            //             v.Color,
+            //             v.Size,
+            //             v.Price,
+            //             v.StockQuantity
+            //         }).ToList()
+            // };
+
+            // return Ok(productDetail);
+
+        }
+
+        [HttpGet("variants")]
 		public IActionResult GetProductVariants()
 		{
 			var variants = _db.ProductVariants
@@ -71,4 +93,5 @@ namespace Test.Controllers
 			return Ok(variants);
 		}
 	}
+
 }

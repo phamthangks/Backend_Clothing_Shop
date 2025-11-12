@@ -1235,3 +1235,11 @@ D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjsmrazor.ds
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\clothing_shop\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\obj\Debug\net8.0\test1.sourcelink.json
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\EntityFramework.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Workspace\ASP.NET Core Web API\ProjectFinal\Backend_Clothing_Shop\test1\test1\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
