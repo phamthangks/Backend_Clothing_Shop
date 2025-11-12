@@ -61,8 +61,8 @@ namespace Test.Controllers
 				anhSps = anhSP
 			};
 			return Ok(productDetail);
-			if (sanPham == null)
-                return NotFound();
+            //if (sanPham == null)
+            //  return NotFound();
 
             // var productDetail = new
             // {
@@ -80,10 +80,10 @@ namespace Test.Controllers
             // };
 
             // return Ok(productDetail);
-        
-		}
 
-		[HttpGet("variants")]
+        }
+
+        [HttpGet("variants")]
 		public IActionResult GetProductVariants()
 		{
 			var variants = _db.ProductVariants

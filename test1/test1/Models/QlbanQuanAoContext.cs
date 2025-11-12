@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace test1.Models;
