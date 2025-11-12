@@ -211,6 +211,136 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "GetCart",
+    "RelativePath": "api/CartAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/CartAPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "AddCart",
+    "RelativePath": "api/CartAPI/AddCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfProducts",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "BuyNow",
+    "RelativePath": "api/CartAPI/buynow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfProducts",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "GetCartProduct",
+    "RelativePath": "api/CartAPI/cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "Decrease",
+    "RelativePath": "api/CartAPI/decrease/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.CartAPIController",
+    "Method": "Increase",
+    "RelativePath": "api/CartAPI/increase/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "test1.Areas.Admin.Controllers.CategoryAPIController",
     "Method": "GetAll",
     "RelativePath": "api/category",
@@ -313,6 +443,112 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.CheckoutAPIController",
+    "Method": "Checkout",
+    "RelativePath": "api/CheckoutAPI/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Models.CheckoutModel.CheckoutRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.CheckoutAPIController",
+    "Method": "Checkout_BuyNow",
+    "RelativePath": "api/CheckoutAPI/checkout-buynow/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.CheckoutAPIController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/CheckoutAPI/place-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderRequest",
+        "Type": "test1.Models.CheckoutModel.Checkout",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.CheckoutAPIController",
+    "Method": "PlaceOrder_BuyNow",
+    "RelativePath": "api/CheckoutAPI/place-order-buynow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderRequest",
+        "Type": "test1.Models.CheckoutModel.Checkout2",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.CheckoutAPIController",
+    "Method": "StoreSelectedItems",
+    "RelativePath": "api/CheckoutAPI/store-selected-items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "selectedItems",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.EscrowController",
+    "Method": "GetContractBalance",
+    "RelativePath": "api/escrow/balance/{contractAddress}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractAddress",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Controllers.EscrowController",
+    "Method": "DeployContract",
+    "RelativePath": "api/escrow/deploy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -806,6 +1042,96 @@
       {
         "Name": "order",
         "Type": "test1.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentController",
+    "Method": "CancelPayment",
+    "RelativePath": "api/Payment/cancel/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "test1.Models.Payment.CancelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentController",
+    "Method": "CapturePayment",
+    "RelativePath": "api/Payment/capture-payment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentController",
+    "Method": "CreatePaymentLink",
+    "RelativePath": "api/Payment/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Models.Payment.PaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/Payment/create-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Models.Payment.PaymentPaypalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentController",
+    "Method": "Refund",
+    "RelativePath": "api/Payment/refund",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test1.Models.Payment.RefundPayPalRequest",
         "IsRequired": true
       }
     ],
