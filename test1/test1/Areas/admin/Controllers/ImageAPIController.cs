@@ -21,9 +21,9 @@ namespace Test.Areas.Admin.Controllers
 		{
 			_context = context;
 			_env = env;
-			_uploadPath = Path.Combine(_env.WebRootPath, "uploads", "products");
+			_uploadPath = Path.Combine(_env.WebRootPath, "uploads", "image");
 
-			// Tạo thư mục uploads/products nếu chưa tồn tại
+			// Tạo thư mục uploads/image nếu chưa tồn tại
 			if (!Directory.Exists(_uploadPath))
 			{
 				Directory.CreateDirectory(_uploadPath);

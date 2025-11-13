@@ -294,8 +294,8 @@ namespace Test.Controllers
 			// Nếu có file media được đính kèm
 			if (model.MediaFiles != null && model.MediaFiles.Any())
 			{
-				// Thư mục lưu file (ví dụ: wwwroot/uploads)
-				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+				// Thư mục lưu file (ví dụ: wwwroot/uploads/image)
+				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
 				if (!Directory.Exists(uploadsFolder))
 				{
 					Directory.CreateDirectory(uploadsFolder);
@@ -332,7 +332,7 @@ namespace Test.Controllers
 					{
 						ReviewId = review.ReviewId,
 						MediaType = file.ContentType,
-						MediaUrl = "/uploads/" + uniqueFileName  // Đường dẫn URL tương đối, bạn có thể điều chỉnh nếu cần
+						MediaUrl = "/uploads/image/" + uniqueFileName  // Đường dẫn URL tương đối, bạn có thể điều chỉnh nếu cần
 					};
 
 					_context.ReviewMedia.Add(reviewMedia);
@@ -444,8 +444,8 @@ namespace Test.Controllers
 				_context.ReviewMedia.RemoveRange(existingReview.ReviewMedia);
 				existingReview.ReviewMedia = new List<ReviewMedium>();
 
-				// Thư mục lưu file (ví dụ: wwwroot/uploads)
-				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+				// Thư mục lưu file (ví dụ: wwwroot/uploads/image)
+				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
 				if (!Directory.Exists(uploadsFolder))
 				{
 					Directory.CreateDirectory(uploadsFolder);

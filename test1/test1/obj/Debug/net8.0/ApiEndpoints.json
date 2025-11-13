@@ -1267,6 +1267,22 @@
   },
   {
     "ContainingType": "Test.Controllers.ProductApiController",
+    "Method": "GetTopSellingProducts",
+    "RelativePath": "api/products/top-selling",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.ProductApiController",
     "Method": "GetProductVariants",
     "RelativePath": "api/products/variants",
     "HttpMethod": "GET",

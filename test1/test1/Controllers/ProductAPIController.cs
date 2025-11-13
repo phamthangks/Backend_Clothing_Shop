@@ -70,5 +70,75 @@ namespace Test.Controllers
 				.ToList();
 			return Ok(variants);
 		}
+
+		/// <summary>
+		/// Lấy 30 sản phẩm bán chạy nhất (mua nhiều nhất)
+		/// </summary>
+		[HttpGet("top-selling")]
+		public IActionResult GetTopSellingProducts([FromQuery] int limit = 30)
+		{
+			try
+			{
+				// Lấy danh sách sản phẩm đã được mua (chỉ tính đơn hàng đã hoàn thành),
+				// nhóm theo ProductId và tính tổng số lượng đã bán
+				var topSellingProductIds = (
+					from od in _db.OrderDetails
+					join o in _db.Orders on od.OrderId equals o.Id
+					where od.NumberOfProducts.HasValue && od.NumberOfProducts.Value > 0
+						&& od.ProductId.HasValue
+						&& o.Active == false 
+						&& o.Status == "completed"
+					group od by od.ProductId.Value into g
+					select new
+					{
+						ProductId = g.Key,
+						TotalSold = g.Sum(od => od.NumberOfProducts.Value)
+					}
+				)
+				.OrderByDescending(x => x.TotalSold)
+				.Take(limit)
+				.Select(x => x.ProductId)
+				.ToList();
+
+				// Lấy thông tin đầy đủ của các sản phẩm này
+				var topProducts = _db.Products
+					.Include(p => p.ProductImages)
+					.Include(p => p.Category)
+					.Include(p => p.Brand)
+					.Where(p => topSellingProductIds.Contains(p.Id))
+					.AsNoTracking()
+					.ToList();
+
+				// Sắp xếp lại theo thứ tự TotalSold (giữ nguyên thứ tự từ query trên)
+				var orderedProducts = topSellingProductIds
+					.Select(id => topProducts.FirstOrDefault(p => p.Id == id))
+					.Where(p => p != null)
+					.ToList();
+
+				// Nếu có ít hơn limit sản phẩm đã được mua, thêm các sản phẩm chưa được mua để đủ 30
+				if (orderedProducts.Count < limit)
+				{
+					var remainingCount = limit - orderedProducts.Count;
+					var soldProductIds = orderedProducts.Select(p => p.Id).ToList();
+					var additionalProducts = _db.Products
+						.Include(p => p.ProductImages)
+						.Include(p => p.Category)
+						.Include(p => p.Brand)
+						.Where(p => !soldProductIds.Contains(p.Id))
+						.OrderByDescending(p => p.CreatedAt)
+						.Take(remainingCount)
+						.AsNoTracking()
+						.ToList();
+
+					orderedProducts.AddRange(additionalProducts);
+				}
+
+				return Ok(orderedProducts);
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(500, new { message = "Lỗi khi lấy sản phẩm bán chạy", error = ex.Message });
+			}
+		}
 	}
 }

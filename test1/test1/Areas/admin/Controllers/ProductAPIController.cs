@@ -292,7 +292,7 @@ namespace Test.Areas.Admin.Controllers
 
 	private async Task<string> SaveImage(IFormFile file)
 	{
-		var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "products");
+		var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "image");
 
 		if (!Directory.Exists(uploadsFolder))
 		{
