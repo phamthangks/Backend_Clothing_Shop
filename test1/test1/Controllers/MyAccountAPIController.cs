@@ -166,26 +166,102 @@ namespace Test.Controllers
 			return Ok(new { success = true, message = "Order shipping address updated successfully" });
 		}
 		[HttpPatch("CancelOrder")]
-		public IActionResult CancelOrder([FromBody] CancelOrderModel model)
-		{
-			if (model == null || model.OrderId <= 0)
-				return BadRequest("Invalid order data");
+        public async Task<IActionResult> CancelOrder([FromBody] CancelOrderModel model)
+        {
+            try
+            {
+                if (model == null || model.OrderId <= 0)
+                    return BadRequest(new { success = false, message = "Invalid order data" });
 
-			// Tìm đơn hàng theo OrderId
-			var order = _context.Orders.FirstOrDefault(o => o.Id == model.OrderId);
-			if (order == null)
-				return NotFound(new { success = false, message = "Order not found" });
+                var customerId = GetCurrentCustomerId();
+                if (customerId <= 0)
+                    return Unauthorized(new { success = false, message = "Unauthorized" });
 
-			// Kiểm tra trạng thái hiện tại của đơn hàng
-			if (order.Status != "processing" && order.Status != "addressChanged")
-				return BadRequest(new { success = false, message = "Order status does not allow cancellation" });
+                // Tìm đơn hàng theo OrderId và bao gồm chi tiết đơn hàng với thông tin biến thể sản phẩm
+                var order = await _context.Orders
+                    .Include(o => o.OrderDetails)
+                        .ThenInclude(od => od.ProductVariant)
+                    .FirstOrDefaultAsync(o => o.Id == model.OrderId && o.UserId == customerId);
 
-			// Cập nhật trạng thái thành cancel
-			order.Status = "cancelled";
-			_context.SaveChanges();
-			return Ok(new { success = true, message = "Order canceled successfully" });
-		}
-		[HttpPost("AddReview")]
+                if (order == null)
+                    return NotFound(new { success = false, message = "Order not found" });
+
+                // Kiểm tra trạng thái hiện tại của đơn hàng
+                if (order.Status != "processing" && order.Status != "addressChanged")
+                    return BadRequest(new { success = false, message = "Order status does not allow cancellation" });
+
+                // DEBUG: Log thông tin đơn hàng và chi tiết
+                Console.WriteLine($"=== CANCELLING ORDER DEBUG ===");
+                Console.WriteLine($"Order ID: {order.Id}, Status: {order.Status}");
+                Console.WriteLine($"Found {order.OrderDetails?.Count ?? 0} order details");
+
+                // Restore stock quantities for all order items - HOÀN TRẢ SỐ LƯỢNG VÀO KHO
+                if (order.OrderDetails != null)
+                {
+                    foreach (var orderDetail in order.OrderDetails)
+                    {
+                        if (orderDetail.ProductVariantId.HasValue && orderDetail.NumberOfProducts.HasValue)
+                        {
+                            var productVariant = await _context.ProductVariants
+                                .FirstOrDefaultAsync(pv => pv.Id == orderDetail.ProductVariantId.Value);
+
+                            if (productVariant != null)
+                            {
+                                // Lưu lại số lượng cũ để log
+                                int oldStock = productVariant.StockQuantity;
+
+                                // Thêm số lượng trở lại kho
+                                productVariant.StockQuantity += orderDetail.NumberOfProducts.Value;
+
+                                // Log thông tin hoàn trả
+                                Console.WriteLine($"Restored {orderDetail.NumberOfProducts.Value} units for product variant {productVariant.Id}");
+                                Console.WriteLine($"Product: {productVariant.ProductId}, Size: {productVariant.Size}, Color: {productVariant.Color}");
+                                Console.WriteLine($"Stock changed from {oldStock} to {productVariant.StockQuantity}");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Product variant not found for ID: {orderDetail.ProductVariantId}");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Invalid order detail - VariantId: {orderDetail.ProductVariantId}, Quantity: {orderDetail.NumberOfProducts}");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No order details found for this order");
+                }
+
+                Console.WriteLine($"=== END DEBUG ===");
+
+                // Cập nhật trạng thái thành cancelled
+                order.Status = "cancelled";
+                order.Active = false;
+
+                await _context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Order canceled successfully and product quantities have been restored to stock"
+                });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error cancelling order: {ex.Message}");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                return StatusCode(500, new
+                {
+                    success = false,
+                    message = "Error cancelling order",
+                    error = ex.Message
+                });
+            }
+        }
+
+        [HttpPost("AddReview")]
 		public async Task<IActionResult> AddReview([FromForm] ReviewCreateModel model)
 		{
 			if (model == null)

@@ -16,6 +16,13 @@
         public double Price { get; set; }
         public int? NumberOfProducts { get; set; }
 
-		public List<int>? SelectedItems { get; set; }
-	}
+        public List<int>? SelectedItems { get; set; }
+
+        // MAKE SURE THESE PROPERTIES EXIST AND ARE PROPERLY MAPPED
+        public int? ProductVariantId { get; set; }
+        public string? Size { get; set; }
+        public string? Color { get; set; }
+        public List<int>? ProductVariantIds { get; set; }
+    }
 }
+
