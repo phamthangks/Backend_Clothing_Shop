@@ -5816,11 +5816,7 @@ wwwroot\uploads\image\sp6.jpg
 wwwroot\uploads\image\sp7.jpg
 wwwroot\uploads\image\sp8.jpg
 wwwroot\uploads\image\sp9.jpg
-wwwroot\uploads\image\64e9b0bc-faac-41b0-9173-af78c22e0342_RM.jpg
-wwwroot\uploads\image\81a04ab9-e23a-4939-9650-c65e373dbaae_UseCase-UseCase2.drawio.png
-wwwroot\uploads\image\a8471d7c-6522-4c6d-97b2-f4cdda81d374_ER.jpg
-wwwroot\uploads\image\c2c45192-7b01-42ee-af1a-969e4e6ad5cb_UseCase.drawio.png
-wwwroot\uploads\image\57838031-c2b6-4a0a-97bc-fa118b5658f3_RM.jpg
-wwwroot\uploads\image\a13c0258-d3bb-4639-8cee-af87b29b250d_UseCase.drawio.png
-wwwroot\uploads\image\a2638ea0-2685-42ab-b50d-becda553f124_UseCase-UseCase2.drawio.png
-wwwroot\uploads\image\e137a506-86d0-4f9b-9b4e-650b91a3945d_ER.jpg
+wwwroot\uploads\image\8cc36994-ea46-400b-87aa-d6e6d71e3249_z7202185095075_fe6ca466eb62fd8573e374bd317b72d4.jpg
+wwwroot\uploads\image\fd553b9b-db45-45a5-9d92-d9d1a87c083f_z7202185095075_fe6ca466eb62fd8573e374bd317b72d4.jpg
+wwwroot\uploads\image\a2cbfa41-b642-4c19-852e-1c9da3969673_z7202185095075_fe6ca466eb62fd8573e374bd317b72d4.jpg
+wwwroot\uploads\image\fe890e52-7145-4b14-bd3a-808b59180006_Screen Recording 2025-07-05 211908.mp4

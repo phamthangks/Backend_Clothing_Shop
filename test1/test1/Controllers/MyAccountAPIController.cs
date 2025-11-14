@@ -262,88 +262,81 @@ namespace Test.Controllers
         }
 
         [HttpPost("AddReview")]
-		public async Task<IActionResult> AddReview([FromForm] ReviewCreateModel model)
-		{
-			if (model == null)
-				return BadRequest("Dữ liệu review không hợp lệ");
+        public async Task<IActionResult> AddReview([FromForm] ReviewCreateModel model)
+        {
+            if (model == null)
+                return BadRequest("Dữ liệu review không hợp lệ");
 
-			// Lấy id người dùng từ token (tương tự như hàm GetCurrentCustomerId trong MyAccountAPIController)
-			int userId = GetCurrentCustomerId();
-			if (userId <= 0)
-				return Unauthorized("Người dùng không hợp lệ");
-			// Kiểm tra xem người dùng đã đánh giá sản phẩm này chưa
-			var existingReview = await _context.Reviews
-				.FirstOrDefaultAsync(r => r.UserId == userId && r.ProductId == model.ProductId);
-			if (existingReview != null)
-			{
-				return BadRequest("Bạn đã đánh giá sản phẩm này rồi.");
-			}
-			// Tạo đối tượng Review với dữ liệu nhận được
-			var review = new Review
-			{
-				UserId = userId,
-				ProductId = model.ProductId,
-				Rating = (byte)model.Rating,
-				ReviewText = model.ReviewText,
-				ReviewDate = DateTime.Now
-			};
+            int userId = GetCurrentCustomerId();
+            if (userId <= 0)
+                return Unauthorized("Người dùng không hợp lệ");
 
-			_context.Reviews.Add(review);
-			await _context.SaveChangesAsync(); // Lưu review để có review_id (primary key)
+            var existingReview = await _context.Reviews
+                .FirstOrDefaultAsync(r => r.UserId == userId && r.ProductId == model.ProductId);
+            if (existingReview != null)
+            {
+                return BadRequest("Bạn đã đánh giá sản phẩm này rồi.");
+            }
 
-			// Nếu có file media được đính kèm
-			if (model.MediaFiles != null && model.MediaFiles.Any())
-			{
-				// Thư mục lưu file (ví dụ: wwwroot/uploads/image)
-				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
-				if (!Directory.Exists(uploadsFolder))
-				{
-					Directory.CreateDirectory(uploadsFolder);
-				}
+            var review = new Review
+            {
+                UserId = userId,
+                ProductId = model.ProductId,
+                Rating = (byte)model.Rating,
+                ReviewText = model.ReviewText,
+                ReviewDate = DateTime.Now
+            };
 
-				foreach (var file in model.MediaFiles)
-				{
-					// (Tùy chọn) Kiểm tra định dạng và kích thước file nếu cần
-					// Ví dụ: chỉ cho phép image/jpeg, image/png, video/mp4, video/webm và kích thước tối đa 5MB
+            _context.Reviews.Add(review);
+            await _context.SaveChangesAsync(); // Lưu review trước để có review.ReviewId
 
-					if (!new[] { "image/jpeg", "image/png", "video/mp4", "video/webm" }
-							.Contains(file.ContentType))
-					{
-						// Nếu không hợp lệ, bạn có thể bỏ qua file này hoặc trả về lỗi
-						continue;
-					}
+            // --- file config: use consistent relative folder
+            string relativeFolder = "/uploads/image/";
+            string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
+            if (!Directory.Exists(uploadsFolder))
+            {
+                Directory.CreateDirectory(uploadsFolder);
+            }
 
-					if (file.Length > 15 * 1024 * 1024)
-					{
-						continue;
-					}
+            if (model.MediaFiles != null && model.MediaFiles.Any())
+            {
+                foreach (var file in model.MediaFiles)
+                {
+                    if (!new[] { "image/jpeg", "image/png", "video/mp4", "video/webm" }
+                            .Contains(file.ContentType))
+                    {
+                        continue;
+                    }
 
-					// Tạo tên file duy nhất để tránh trùng lặp
-					string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-					string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                    if (file.Length > 15 * 1024 * 1024)
+                    {
+                        continue;
+                    }
 
-					using (var stream = new FileStream(filePath, FileMode.Create))
-					{
-						await file.CopyToAsync(stream);
-					}
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(file.FileName);
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
-					// Sau khi lưu file, tạo một đối tượng ReviewMedia với đường dẫn file
-					var reviewMedia = new ReviewMedium
-					{
-						ReviewId = review.ReviewId,
-						MediaType = file.ContentType,
-						MediaUrl = "/uploads/image/" + uniqueFileName  // Đường dẫn URL tương đối, bạn có thể điều chỉnh nếu cần
-					};
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
 
-					_context.ReviewMedia.Add(reviewMedia);
-				}
+                    var reviewMedia = new ReviewMedium
+                    {
+                        ReviewId = review.ReviewId,
+                        MediaType = file.ContentType,
+                        MediaUrl = relativeFolder + uniqueFileName
+                    };
 
-				await _context.SaveChangesAsync();
-			}
+                    _context.ReviewMedia.Add(reviewMedia);
+                }
 
-			return Ok(new { success = true, message = "Review và file media đã được lưu thành công" });
-		}
-		[HttpGet("GetReviewsByProduct/{productId}")]
+                await _context.SaveChangesAsync();
+            }
+
+            return Ok(new { success = true, message = "Review và file media đã được lưu thành công" });
+        }
+        [HttpGet("GetReviewsByProduct/{productId}")]
 		public async Task<IActionResult> GetReviewsByProduct(int productId)
 		{
 			if (productId <= 0)
@@ -373,31 +366,6 @@ namespace Test.Controllers
 
 			return Ok(result);
 		}
-		//[HttpPatch("ChangeOrderAddress")]
-		//public IActionResult ChangeOrderAddress([FromBody] ChangeOrderAddressModel model)
-		//{
-		//	if (model == null || model.OrderId <= 0 || model.ShippingAddressId <= 0)
-		//		return BadRequest("Invalid data");
-
-		//	// Tìm đơn hàng đang xử lý (active == true) theo OrderId
-		//	var order = _context.Orders.FirstOrDefault(o => o.Id == model.OrderId);
-		//	if (order == null)
-		//		return NotFound(new { success = false, message = "Order not found" });
-
-		//	// Tìm địa chỉ giao hàng theo ShippingAddressId và đảm bảo địa chỉ thuộc về người dùng của đơn hàng
-		//	var shippingAddress = _context.ShippingAddresses
-		//		.FirstOrDefault(a => a.Id == model.ShippingAddressId && a.UserId == order.UserId);
-		//	if (shippingAddress == null)
-		//		return NotFound(new { success = false, message = "Shipping address not found" });
-
-		//	// Cập nhật thông tin địa chỉ giao hàng cho đơn hàng
-		//	order.Fullname = shippingAddress.Fullname;
-		//	order.PhoneNumber = shippingAddress.PhoneNumber;
-		//	order.Address = shippingAddress.Address;
-
-		//	_context.SaveChanges();
-		//	return Ok(new { success = true, message = "Order shipping address updated successfully" });
-		//}
 		[HttpGet("HasReviewed/{productId}")]
 		public async Task<IActionResult> HasReviewed(int productId)
 		{
@@ -413,88 +381,192 @@ namespace Test.Controllers
 
 			return Ok(new { reviewed });
 		}
-		[HttpPut("UpdateReview")]
-		public async Task<IActionResult> UpdateReview([FromForm] ReviewCreateModel model)
-		{
-			if (model == null)
-				return BadRequest("Dữ liệu review không hợp lệ");
 
-			// Lấy id người dùng từ token
-			int currentUserId = GetCurrentCustomerId();
-			if (currentUserId <= 0)
-				return Unauthorized("Người dùng không hợp lệ");
+        [HttpPut("UpdateReview")]
+        public async Task<IActionResult> UpdateReview([FromForm] ReviewCreateModel model)
+        {
+            if (model == null)
+                return BadRequest("Dữ liệu review không hợp lệ");
 
-			// Tìm review của người dùng cho sản phẩm đó
-			var existingReview = await _context.Reviews
-				.Include(r => r.ReviewMedia)
-				.FirstOrDefaultAsync(r => r.ProductId == model.ProductId && r.UserId == currentUserId);
+            int currentUserId = GetCurrentCustomerId();
+            if (currentUserId <= 0)
+                return Unauthorized("Người dùng không hợp lệ");
 
-			if (existingReview == null)
-				return NotFound("Review không tồn tại");
+            var existingReview = await _context.Reviews
+                .Include(r => r.ReviewMedia)
+                .FirstOrDefaultAsync(r => r.ProductId == model.ProductId && r.UserId == currentUserId);
 
-			// Cập nhật thông tin review
-			existingReview.Rating = (byte)model.Rating;
-			existingReview.ReviewText = model.ReviewText;
-			existingReview.ReviewDate = DateTime.Now; // cập nhật lại thời gian chỉnh sửa
+            if (existingReview == null)
+                return NotFound("Review không tồn tại");
 
-			// Nếu có file media mới được gửi lên, cập nhật lại media
-			if (model.MediaFiles != null && model.MediaFiles.Any())
-			{
-				// Xóa media cũ
-				_context.ReviewMedia.RemoveRange(existingReview.ReviewMedia);
-				existingReview.ReviewMedia = new List<ReviewMedium>();
+            existingReview.Rating = (byte)model.Rating;
+            existingReview.ReviewText = model.ReviewText;
+            existingReview.ReviewDate = DateTime.Now;
 
-				// Thư mục lưu file (ví dụ: wwwroot/uploads/image)
-				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
-				if (!Directory.Exists(uploadsFolder))
-				{
-					Directory.CreateDirectory(uploadsFolder);
-				}
+            // file folders + relative url
+            string relativeFolder = "/uploads/image/";
+            string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
+            if (!Directory.Exists(uploadsFolder))
+            {
+                Directory.CreateDirectory(uploadsFolder);
+            }
 
-				foreach (var file in model.MediaFiles)
-				{
-					// (Tùy chọn) Kiểm tra định dạng và kích thước file
-					if (!new[] { "image/jpeg", "image/png", "video/mp4", "video/webm" }
-							.Contains(file.ContentType))
-					{
-						continue;
-					}
-					if (file.Length > 15 * 1024 * 1024)
-					{
-						continue;
-					}
+            if (model.MediaFiles != null && model.MediaFiles.Any())
+            {
+                // --- Xóa file cũ trên disk (nếu có)
+                foreach (var old in existingReview.ReviewMedia.ToList())
+                {
+                    try
+                    {
+                        var trimmed = old.MediaUrl?.TrimStart('/');
+                        if (!string.IsNullOrEmpty(trimmed))
+                        {
+                            var pathOnDisk = Path.Combine(_environment.WebRootPath, trimmed.Replace('/', Path.DirectorySeparatorChar));
+                            if (System.IO.File.Exists(pathOnDisk))
+                            {
+                                System.IO.File.Delete(pathOnDisk);
+                            }
+                        }
+                    }
+                    catch
+                    {
+                        // log nếu cần, nhưng không ngăn quá trình lưu file mới
+                    }
+                }
 
-					// Tạo tên file duy nhất
-					string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-					string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                // Xóa record media cũ khỏi DB
+                _context.ReviewMedia.RemoveRange(existingReview.ReviewMedia);
+                existingReview.ReviewMedia.Clear();
 
-					using (var stream = new FileStream(filePath, FileMode.Create))
-					{
-						await file.CopyToAsync(stream);
-					}
+                // Lưu file mới và add vào DB
+                foreach (var file in model.MediaFiles)
+                {
+                    if (!new[] { "image/jpeg", "image/png", "video/mp4", "video/webm" }
+                            .Contains(file.ContentType))
+                    {
+                        continue;
+                    }
+                    if (file.Length > 50 * 1024 * 1024)
+                    {
+                        continue;
+                    }
 
-					// Tạo đối tượng ReviewMedia mới với đường dẫn file
-					var reviewMedia = new ReviewMedium
-					{
-						ReviewId = existingReview.ReviewId,
-						MediaType = file.ContentType,
-						MediaUrl = "/uploads/" + uniqueFileName
-					};
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(file.FileName);
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
-					existingReview.ReviewMedia.Add(reviewMedia);
-				}
-			}
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
 
-			await _context.SaveChangesAsync();
+                    var reviewMedia = new ReviewMedium
+                    {
+                        ReviewId = existingReview.ReviewId,
+                        MediaType = file.ContentType,
+                        MediaUrl = relativeFolder + uniqueFileName
+                    };
 
-			return Ok(new { success = true, message = "Review đã được cập nhật thành công." });
-		}
+                    _context.ReviewMedia.Add(reviewMedia);
+                }
+            }
 
-		#endregion
+            await _context.SaveChangesAsync();
 
-		#region Thông tin tài khoản
+            return Ok(new { success = true, message = "Review đã được cập nhật thành công." });
+        }
 
-		[HttpGet("MyAccount")]
+
+        //[HttpPut("UpdateReview")]
+        //public async Task<IActionResult> UpdateReview([FromForm] ReviewCreateModel model)
+        //{
+        //    if (model == null)
+        //        return BadRequest("Dữ liệu review không hợp lệ");
+
+        //    int currentUserId = GetCurrentCustomerId();
+        //    if (currentUserId <= 0)
+        //        return Unauthorized("Người dùng không hợp lệ");
+
+        //    var existingReview = await _context.Reviews
+        //        .Include(r => r.ReviewMedia)
+        //        .FirstOrDefaultAsync(r => r.ProductId == model.ProductId && r.UserId == currentUserId);
+
+        //    if (existingReview == null)
+        //        return NotFound("Review không tồn tại");
+
+        //    existingReview.Rating = (byte)model.Rating;
+        //    existingReview.ReviewText = model.ReviewText;
+        //    existingReview.ReviewDate = DateTime.Now;
+
+        //    // file folders + relative url
+        //    string relativeFolder = "/uploads/image/";
+        //    string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads", "image");
+        //    if (!Directory.Exists(uploadsFolder))
+        //    {
+        //        Directory.CreateDirectory(uploadsFolder);
+        //    }
+
+        //    if (model.MediaFiles != null && model.MediaFiles.Any())
+        //    {
+        //        // Nếu bạn muốn giới hạn tổng file cho mỗi review, bật biến này:
+        //        int maxFilesPerReview = 10; // ví dụ: tối đa 10 file cho mỗi review
+        //                                    // currentCount = số media đang có; nếu không muốn giới hạn, set maxFilesPerReview = int.MaxValue
+        //        int currentCount = existingReview.ReviewMedia?.Count ?? 0;
+
+        //        foreach (var file in model.MediaFiles)
+        //        {
+        //            // Nếu đã đạt limit, bỏ qua các file sau
+        //            if (currentCount >= maxFilesPerReview)
+        //            {
+        //                break;
+        //            }
+
+        //            // (Tùy chọn) Kiểm tra định dạng và kích thước file
+        //            var allowed = new[] { "image/jpeg", "image/png", "video/mp4", "video/webm" };
+        //            long maxPerFile = 100L * 1024 * 1024; // 100MB per file (tùy chỉnh)
+
+        //            if (!allowed.Contains(file.ContentType))
+        //            {
+        //                // bạn có thể return BadRequest ở đây nếu muốn cho user biết file không hợp lệ
+        //                continue;
+        //            }
+        //            if (file.Length > maxPerFile)
+        //            {
+        //                // tiếp tục hoặc trả lỗi tuỳ bạn
+        //                continue;
+        //            }
+
+        //            string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(file.FileName);
+        //            string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+        //            using (var stream = new FileStream(filePath, FileMode.Create))
+        //            {
+        //                await file.CopyToAsync(stream);
+        //            }
+
+        //            var reviewMedia = new ReviewMedium
+        //            {
+        //                ReviewId = existingReview.ReviewId,
+        //                MediaType = file.ContentType,
+        //                MediaUrl = relativeFolder + uniqueFileName
+        //            };
+
+        //            // Thêm trực tiếp vào bảng ReviewMedia để EF tracking tốt
+        //            _context.ReviewMedia.Add(reviewMedia);
+
+        //            currentCount++; // tăng số file đã thêm
+        //        }
+        //    }
+
+        //    await _context.SaveChangesAsync();
+
+        //    return Ok(new { success = true, message = "Review đã được cập nhật thành công." });
+        //}
+
+        #endregion
+
+        #region Thông tin tài khoản
+
+        [HttpGet("MyAccount")]
 		public IActionResult MyAccount()
 		{
 			var customerId = GetCurrentCustomerId();
@@ -516,36 +588,43 @@ namespace Test.Controllers
 				return Ok(new { success = true, data = account });
 			}
 
-			// Nếu có đơn hàng hoàn thành, lấy thông tin chi tiết đơn hàng
-			var accountItems = (from a in _context.Products
-								join b in _context.OrderDetails on a.Id equals b.ProductId
-								join c in _context.Orders on b.OrderId equals c.Id
-								join d in _context.Users on c.UserId equals d.Id
-								where c.Active == false
-								   && c.UserId == customerId
-								   && d.IsActive == true
-								select new Account
-								{
-									Name = a.Name,
-									ProductId = a.Id,
-									Id = d.Id,
-									OrderId= c.Id,
-									Fullname = d.Fullname,
-									FullnameS=c.Fullname,
-									PaymentMethod=c.PaymentMethod,
-									CaptureId=c.CaptureId,
-									TotalMoney=c.TotalMoney,
-									PhoneNumberS=c.PhoneNumber,
-									AddressS=c.Address,
-									ProductImageUrl=a.Image,
-									Price = a.Price,
-									Status = c.Status,
-									NumberOfProducts = b.NumberOfProducts,
-									PhoneNumber = d.PhoneNumber,
-									OrderDate = c.OrderDate,
-								}).ToList();
+            // Nếu có đơn hàng hoàn thành, lấy thông tin chi tiết đơn hàng cùng variant (nếu có)
+            var accountItems = (from a in _context.Products
+                                join b in _context.OrderDetails on a.Id equals b.ProductId
+                                join c in _context.Orders on b.OrderId equals c.Id
+                                join d in _context.Users on c.UserId equals d.Id
+                                // left join vào ProductVariants
+                                join pv in _context.ProductVariants on b.ProductVariantId equals pv.Id into pvGroup
+                                from pv in pvGroup.DefaultIfEmpty()
+                                where c.Active == false
+                                   && c.UserId == customerId
+                                   && d.IsActive == true
+                                select new Account
+                                {
+                                    Name = a.Name,
+                                    ProductId = a.Id,
+                                    Id = d.Id,
+                                    OrderId = c.Id,
+                                    Fullname = d.Fullname,
+                                    FullnameS = c.Fullname,
+                                    PaymentMethod = c.PaymentMethod,
+                                    CaptureId = c.CaptureId,
+                                    TotalMoney = c.TotalMoney,
+                                    PhoneNumberS = c.PhoneNumber,
+                                    AddressS = c.Address,
+                                    ProductImageUrl = a.Image,
+                                    Price = a.Price,
+                                    Status = c.Status,
+                                    NumberOfProducts = b.NumberOfProducts,
+                                    PhoneNumber = d.PhoneNumber,
+                                    OrderDate = c.OrderDate,
+                                    // variant info — nếu pv null thì trả null (PASCALCASE names)
+                                    ProductVariantId = b.ProductVariantId,
+                                    Size = pv != null ? pv.Size : null,
+                                    Color = pv != null ? pv.Color : null
+                                }).ToList();
 
-			return Ok(new { success = true, data = accountItems });
+            return Ok(new { success = true, data = accountItems });
 		}
 		[HttpGet("GetShippingAddresses")]
 		public IActionResult GetShippingAddresses()
