@@ -1,0 +1,17 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Visual Studio and user files
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# npm
+node_modules/
+
+# Logs
+*.log
