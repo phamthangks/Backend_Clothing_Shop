@@ -14,7 +14,7 @@ namespace Test.Controllers
 	{
 		private readonly QlbanQuanAoContext _db;
 
-		public ProductApiController(QlbanQuanAoContext db)
+		public ProductApiController(QlbanQuanAoContext db)	
 		{
 			_db = db;
 		}
@@ -25,14 +25,40 @@ namespace Test.Controllers
 			var lstSanPham = _db.Products.AsNoTracking().ToList();
 			return Ok(lstSanPham);
 		}
+		//////////////////////////
 		[HttpGet("paged")]
-		public IActionResult GetProducts(int? page, int? pageSize)
+		public IActionResult GetProducts(int? page, int? pageSize, string? name, int? categoryId, int? brandId, double? minPrice, double? maxPrice)
 		{
 			int defaultPageSize = 6;
 			int pageNumber = (page.HasValue && page.Value > 0) ? page.Value : 1;
 			int effectivePageSize = (pageSize.HasValue && pageSize.Value > 0) ? pageSize.Value : defaultPageSize;
 
 			var productsQuery = _db.Products.AsNoTracking();
+
+			if (!string.IsNullOrEmpty(name))
+			{
+				productsQuery = productsQuery.Where(x => x.Name.Contains(name));
+			}
+
+			if (categoryId.HasValue)
+			{
+				productsQuery = productsQuery.Where(x => x.CategoryId == categoryId.Value);
+			}
+
+			if (brandId.HasValue)
+			{
+				productsQuery = productsQuery.Where(x => x.BrandId == brandId.Value);
+			}
+
+			if (minPrice.HasValue)
+			{
+				productsQuery = productsQuery.Where(x => x.Price >= minPrice.Value);
+			}
+
+			if (maxPrice.HasValue)
+			{
+				productsQuery = productsQuery.Where(x => x.Price <= maxPrice.Value);
+			}
 			var pagedProducts = productsQuery.ToPagedList(pageNumber, effectivePageSize);
 
 			var response = new
