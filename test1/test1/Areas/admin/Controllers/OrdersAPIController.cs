@@ -117,5 +117,45 @@ namespace test1.Areas.Admin.Controllers
 
             return Ok(new { message = "Đơn hàng đã được xóa thành công" });
         }
+
+		[HttpGet("statistics")]
+		public IActionResult GetOrderStatistics()
+		{
+			// Lấy tất cả đơn hàng
+			var allOrders = _context.Orders.ToList();
+			
+			// Hàm helper để kiểm tra trạng thái (case-insensitive)
+			bool MatchesStatus(string? status, string[] statusList)
+			{
+				if (string.IsNullOrEmpty(status)) return false;
+				var statusLower = status.ToLower().Trim();
+				return statusList.Any(s => statusLower == s.ToLower().Trim());
+			}
+			
+			// Đếm theo các trạng thái chuẩn (hỗ trợ cả tiếng Việt và tiếng Anh)
+			var pendingCount = allOrders.Count(o => 
+				MatchesStatus(o.Status, new[] { "pending", "chờ xử lý", "cho xu ly" }));
+			
+			var processingCount = allOrders.Count(o => 
+				MatchesStatus(o.Status, new[] { "processing", "đang xử lý", "dang xu ly" }));
+			
+			var shippedCount = allOrders.Count(o => 
+				MatchesStatus(o.Status, new[] { "shipped", "đang giao", "dang giao", "delivering" }));
+			
+			var deliveredCount = allOrders.Count(o => 
+				MatchesStatus(o.Status, new[] { "delivered", "đã giao", "da giao", "completed" }));
+			
+			var cancelledCount = allOrders.Count(o => 
+				MatchesStatus(o.Status, new[] { "cancelled", "đã hủy", "da huy", "hủy", "huy" }));
+
+			return Ok(new
+			{
+				pending = pendingCount,
+				processing = processingCount,
+				shipped = shippedCount,
+				delivered = deliveredCount,
+				cancelled = cancelledCount
+			});
+		}
     }
 }

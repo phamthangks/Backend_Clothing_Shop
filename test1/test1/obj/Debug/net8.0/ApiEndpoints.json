@@ -1038,6 +1038,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "test1.Areas.Admin.Controllers.OrdersAPIController",
+    "Method": "GetOrderStatistics",
+    "RelativePath": "api/order/statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PaymentController",
     "Method": "CancelPayment",
     "RelativePath": "api/Payment/cancel/{id}",

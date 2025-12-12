@@ -1776,6 +1776,18 @@
         }
       }
     },
+    "/api/order/statistics": {
+      "get": {
+        "tags": [
+          "OrdersAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Payment/capture-payment": {
       "get": {
         "tags": [

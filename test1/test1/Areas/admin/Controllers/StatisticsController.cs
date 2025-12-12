@@ -23,7 +23,11 @@ namespace test1.Areas.admin.Controllers
         [HttpGet("total-revenue")]
         public async Task<IActionResult> GetTotalRevenue()
         {
-            var totalRevenue = await _context.OrderDetails.SumAsync(od => od.TotalMoney);
+            // Tính doanh thu từ Orders (loại trừ đơn đã hủy) để tránh trùng lặp
+            var totalRevenue = await _context.Orders
+                .Where(o => o.Status != "Cancelled" && o.Status != "Đã hủy")
+                .SumAsync(o => o.TotalMoney ?? 0);
+            
             var totalOrders = await _context.Orders.CountAsync();
 
             return Ok(new
@@ -103,7 +107,14 @@ namespace test1.Areas.admin.Controllers
         [HttpGet("average-order-value")]
         public async Task<IActionResult> GetAverageOrderValue()
         {
-            var average = await _context.Orders.AverageAsync(o => o.TotalMoney);
+            // Chỉ tính trung bình từ đơn hàng hợp lệ (không hủy)
+            var validOrders = _context.Orders
+                .Where(o => o.Status != "Cancelled" && o.Status != "Đã hủy" && o.TotalMoney.HasValue);
+            
+            var average = await validOrders.AnyAsync() 
+                ? await validOrders.AverageAsync(o => o.TotalMoney!.Value) 
+                : 0;
+            
             return Ok(average);
         }
 
@@ -111,7 +122,14 @@ namespace test1.Areas.admin.Controllers
         [HttpGet("average-items-per-order")]
         public async Task<IActionResult> GetAverageItemsPerOrder()
         {
+            // Chỉ tính từ đơn hàng hợp lệ (không hủy)
+            var validOrderIds = await _context.Orders
+                .Where(o => o.Status != "Cancelled" && o.Status != "Đã hủy")
+                .Select(o => o.Id)
+                .ToListAsync();
+
             var groupedOrders = await _context.OrderDetails
+                .Where(od => od.OrderId.HasValue && validOrderIds.Contains(od.OrderId.Value))
                 .GroupBy(od => od.OrderId)
                 .Select(g => new
                 {
@@ -121,7 +139,7 @@ namespace test1.Areas.admin.Controllers
                 .ToListAsync();
 
             var totalOrders = groupedOrders.Count;
-            var totalItems = groupedOrders.Sum(o => o.TotalItems);
+            var totalItems = groupedOrders.Sum(o => o.TotalItems ?? 0);
             var average = totalOrders > 0 ? (double)totalItems / totalOrders : 0;
 
             return Ok(new
@@ -624,3 +642,4 @@ namespace test1.Areas.admin.Controllers
 
     }
 }
+
