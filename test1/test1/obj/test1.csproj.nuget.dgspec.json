@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Backend_clothing_shop2\\final\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj": {}
+    "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj": {}
   },
   "projects": {
-    "E:\\Backend_clothing_shop2\\final\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj": {
+    "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backend_clothing_shop2\\final\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
+        "projectUniqueName": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
         "projectName": "test1",
-        "projectPath": "E:\\Backend_clothing_shop2\\final\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Backend_clothing_shop2\\final\\Backend_Clothing_Shop\\test1\\test1\\obj\\",
+        "projectPath": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\test1.csproj",
+        "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\ASP.NET Core Web API\\ProjectFinal\\Backend_Clothing_Shop\\test1\\test1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,6 +98,10 @@
               "target": "Package",
               "version": "[1.0.4, )"
             },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.7.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -138,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

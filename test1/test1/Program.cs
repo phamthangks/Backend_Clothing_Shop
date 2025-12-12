@@ -17,6 +17,7 @@ builder.Services.AddScoped<JwtService>();
 builder.Services.AddScoped<PayPalService>();
 builder.Services.AddSingleton<TwilioService>();
 builder.Services.AddSingleton<ContractService>();
+builder.Services.AddScoped<StatisticsPdfService>();
 builder.Services.AddDistributedMemoryCache();
 
 // ??ng k� session

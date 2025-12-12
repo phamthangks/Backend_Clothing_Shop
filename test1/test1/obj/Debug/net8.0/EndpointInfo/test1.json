@@ -2968,6 +2968,18 @@
         }
       }
     },
+    "/api/Statistics/export-pdf": {
+      "get": {
+        "tags": [
+          "Statistics"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/UserAccountAPI": {
       "get": {
         "tags": [

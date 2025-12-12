@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using test1.Models;
+using test1.Service;
 
 namespace test1.Areas.admin.Controllers
 {
@@ -10,10 +11,12 @@ namespace test1.Areas.admin.Controllers
     public class StatisticsController : ControllerBase
     {
         private readonly QlbanQuanAoContext _context;
+        private readonly StatisticsPdfService _pdfService;
 
-        public StatisticsController(QlbanQuanAoContext context)
+        public StatisticsController(QlbanQuanAoContext context, StatisticsPdfService pdfService)
         {
             _context = context;
+            _pdfService = pdfService;
         }
 
         // Get total revenue
@@ -602,6 +605,22 @@ namespace test1.Areas.admin.Controllers
             return Ok(last6Months);
         }
 
+        // GET /api/statistics/export-pdf
+        [HttpGet("export-pdf")]
+        public IActionResult ExportStatisticsPdf()
+        {
+            try
+            {
+                var pdfBytes = _pdfService.GenerateStatisticsPdf();
+                var fileName = $"BaoCaoThongKe_{DateTime.Now:yyyyMMdd_HHmmss}.pdf";
+                
+                return File(pdfBytes, "application/pdf", fileName);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi khi xuất PDF", error = ex.Message });
+            }
+        }
 
     }
 }
